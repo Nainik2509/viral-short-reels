@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viral Reel Studio - Live Reel Preview Player</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #0d0e15;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .badge {
+      display: inline-block;
+      background: #ff3b30;
+      color: #fff;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 26px;
+      font-weight: 900;
+      margin: 0 0 6px 0;
+      color: #ffd700;
+    }
+    p {
+      color: #8f9cae;
+      margin: 0;
+      font-size: 14px;
+    }
+    .player-container {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+      max-width: 1200px;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    /* Phone Mockup Frame */
+    .phone-mockup {
+      width: 360px;
+      height: 640px;
+      background: #000;
+      border-radius: 40px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.8), 0 0 0 12px #1f2330;
+      position: relative;
+      overflow: hidden;
+    }
+    .phone-screen {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .controls-panel {
+      flex: 1;
+      min-width: 320px;
+      max-width: 500px;
+      background: #151822;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    }
+    .btn-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    button {
+      flex: 1;
+      background: #ffd700;
+      color: #000;
+      border: none;
+      padding: 14px 20px;
+      font-size: 15px;
+      font-weight: 800;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    button:hover {
+      background: #ffb703;
+      transform: translateY(-2px);
+    }
+    button.secondary {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+    }
+    button.secondary:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .metric-card {
+      background: rgba(255,255,255,0.04);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .metric-label {
+      font-size: 12px;
+      color: #8f9cae;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .metric-value {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="badge">🎬 Preview Check Before Render</div>
+    <h1>The Shopkeeper & The Fake ₹500 Note</h1>
+    <p>9:16 Vertical Reel Simulation • 51s Pacing • Kinetic Captions • Interactive Voting</p>
+  </div>
+
+  <div class="player-container">
+    <div class="phone-mockup">
+      <iframe id="reelFrame" class="phone-screen" src="../motion_graphics/shopkeeper-reel/index.html"></iframe>
+    </div>
+
+    <div class="controls-panel">
+      <div class="btn-row">
+        <button id="playBtn">▶ Play With Audio</button>
+        <button id="pauseBtn" class="secondary">⏸ Pause</button>
+        <button id="restartBtn" class="secondary">↺ Restart</button>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Voiceover Engine & Pacing</div>
+        <div class="metric-value">Edge AI Neural (hi-IN-Madhur) @ +12%</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Hook & Pacing Architecture</div>
+        <div class="metric-value">6 Distinct Scene Cuts • 18 Kinetic Captions</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Target Retention & Virality Factor</div>
+        <div class="metric-value">Comment Section Debate (₹500 vs ₹800 vs ₹1000)</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">High-CTR Thumbnail</div>
+        <div class="metric-value">Rendered at 1080×1920 (export/viral_thumbnail_preview.png)</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const iframe = document.getElementById('reelFrame');
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const restartBtn = document.getElementById('restartBtn');
+
+    function getIframeTimeline() {
+      try {
+        return iframe.contentWindow.__timelines && iframe.contentWindow.__timelines.main;
+      } catch (e) {
+        return null;
+      }
+    }
+    function getIframeAudio() {
+      try {
+        return iframe.contentDocument.getElementById('voiceTrack');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    playBtn.addEventListener('click', () => {
+      const tl = getIframeTimeline();
+      const audio = getIframeAudio();
+      if (tl) tl.play();
+      if (audio) audio.play();
+    });
+
+    pauseBtn.addEventListener('click', () => {
+      const tl = getIframeTimeline();
+      const audio = getIframeAudio();
+      if (tl) tl.pause();
+      if (audio) audio.pause();
+    });
+
+    restartBtn.addEventListener('click', () => {
+      const tl = getIframeTimeline();
+      const audio = getIframeAudio();
+      if (tl) { tl.seek(0); tl.play(); }
+      if (audio) { audio.currentTime = 0; audio.play(); }
+    });
+  </script>
+</body>
+</html>

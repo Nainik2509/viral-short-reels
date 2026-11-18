@@ -1,0 +1,23 @@
+{
+  "name": "viral-reel-studio",
+  "version": "1.0.0",
+  "description": "Automated Viral Reel Creation Pipeline with Hyperframes, FFmpeg, Whisper, and Edge AI",
+  "scripts": {
+    "voice": "./.venv/bin/python scripts/voiceover.py",
+    "subtitles": "./.venv/bin/python scripts/subtitles.py",
+    "cut": "./.venv/bin/python scripts/video_processor.py cut",
+    "compose": "./.venv/bin/python scripts/video_processor.py compose",
+    "format-reel": "./.venv/bin/python scripts/video_processor.py reel-format",
+    "studio": "./.venv/bin/python reel_studio.py",
+    "motion": "hyperframes"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.545",
+    "@remotion/cli": "^4.0.545",
+    "@remotion/renderer": "^4.0.545",
+    "hyperframes": "^0.9.65",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.545"
+  }
+}

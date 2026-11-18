@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>The Shopkeeper & The Fake ₹500 Note - Viral Reel</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,900&family=Poppins:wght@700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-dark: #0a0d14;
+        --gold: #ffd700;
+        --amber: #ffb703;
+        --alert-red: #ff3b30;
+        --emerald: #00e676;
+        --cyan: #00f0ff;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html, body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--bg-dark);
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        user-select: none;
+      }
+
+      #root {
+        width: 1080px;
+        height: 1920px;
+        position: relative;
+        overflow: hidden;
+        background: radial-gradient(circle at 50% 25%, #1d1b38 0%, #080910 80%);
+      }
+
+      /* Ambient Neon Lighting */
+      .ambient-glow {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(140px);
+        opacity: 0.45;
+        pointer-events: none;
+      }
+      .glow-gold {
+        width: 600px;
+        height: 600px;
+        background: var(--amber);
+        top: 10%;
+        left: -100px;
+      }
+      .glow-red {
+        width: 650px;
+        height: 650px;
+        background: var(--alert-red);
+        bottom: 20%;
+        right: -100px;
+      }
+
+      /* Persistent Top Branding / Two-Tone Hook */
+      .top-lockup {
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 50;
+        text-align: center;
+      }
+      .badge-capsule {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background: #ff3b30;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 900;
+        padding: 10px 32px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        box-shadow: 0 8px 30px rgba(255, 59, 48, 0.5);
+        margin-bottom: 22px;
+      }
+      .hook-title-line1 {
+        font-size: 64px;
+        font-weight: 900;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+        text-shadow: 0 6px 0 #000, 0 12px 30px rgba(0,0,0,0.8);
+      }
+      .hook-title-line2 {
+        font-size: 82px;
+        font-weight: 900;
+        color: var(--gold);
+        text-transform: uppercase;
+        letter-spacing: -0.03em;
+        line-height: 1.05;
+        text-shadow: 0 6px 0 #000, 0 14px 40px rgba(255, 215, 0, 0.4);
+      }
+
+      /* Stage Area (Center 35% - 65%) */
+      .stage {
+        position: absolute;
+        top: 420px;
+        left: 60px;
+        width: 960px;
+        height: 820px;
+        z-index: 20;
+      }
+
+      .scene {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1080px;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+      }
+
+      /* Interactive Cards */
+      .story-card {
+        width: 880px;
+        background: rgba(22, 25, 38, 0.88);
+        border: 2px solid rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(24px);
+        border-radius: 36px;
+        padding: 44px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+        text-align: center;
+      }
+
+      .hero-art-wrapper {
+        width: 820px;
+        height: 480px;
+        border-radius: 28px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+        border: 3px solid rgba(255, 215, 0, 0.4);
+        margin-bottom: 24px;
+      }
+      .hero-art-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 20%;
+      }
+
+      /* Transaction Elements */
+      .deal-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 24px;
+      }
+      .deal-pill {
+        background: rgba(255, 255, 255, 0.08);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        padding: 20px 28px;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 240px;
+      }
+      .deal-pill.alert {
+        border-color: var(--alert-red);
+        background: rgba(255, 59, 48, 0.15);
+      }
+      .deal-pill.success {
+        border-color: var(--emerald);
+        background: rgba(0, 230, 118, 0.15);
+      }
+      .deal-val {
+        font-size: 52px;
+        font-weight: 900;
+        color: #fff;
+      }
+      .deal-label {
+        font-size: 24px;
+        font-weight: 700;
+        color: rgba(255,255,255,0.7);
+        margin-top: 6px;
+        text-transform: uppercase;
+      }
+
+      /* Quiz Voting Arena */
+      .quiz-options {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        margin-top: 30px;
+      }
+      .quiz-btn {
+        background: rgba(255, 255, 255, 0.07);
+        border: 3px solid rgba(255, 255, 255, 0.25);
+        border-radius: 24px;
+        padding: 24px 36px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 44px;
+        font-weight: 900;
+      }
+      .quiz-btn.opt-a { border-color: var(--cyan); color: var(--cyan); }
+      .quiz-btn.opt-b { border-color: var(--gold); color: var(--gold); }
+      .quiz-btn.opt-c { border-color: var(--alert-red); color: var(--alert-red); }
+
+      /* Kinetic Captions Container (Lower Third Safe Zone: 68% - 82%) */
+      .caption-container {
+        position: absolute;
+        top: 1320px;
+        left: 0;
+        width: 1080px;
+        display: flex;
+        justify-content: center;
+        z-index: 60;
+        padding: 0 40px;
+      }
+      .caption-pill {
+        background: rgba(10, 12, 18, 0.94);
+        border: 3px solid rgba(255, 255, 255, 0.22);
+        padding: 20px 48px;
+        border-radius: 50px;
+        box-shadow: 0 16px 45px rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .caption-word {
+        font-size: 46px;
+        font-weight: 900;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        text-shadow: 0 4px 0 #000;
+      }
+      .caption-word.highlight {
+        color: var(--gold);
+        text-shadow: 0 4px 0 #000, 0 0 25px rgba(255, 215, 0, 0.8);
+      }
+      .caption-word.alert {
+        color: var(--alert-red);
+        text-shadow: 0 4px 0 #000, 0 0 25px rgba(255, 59, 48, 0.8);
+      }
+
+      /* Audio progress bar */
+      .progress-bar-container {
+        position: absolute;
+        bottom: 40px;
+        left: 80px;
+        width: 920px;
+        height: 12px;
+        background: rgba(255,255,255,0.15);
+        border-radius: 6px;
+        overflow: hidden;
+        z-index: 50;
+      }
+      .progress-bar {
+        width: 0%;
+        height: 100%;
+        background: linear-gradient(90deg, var(--gold), var(--alert-red));
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="51.16" data-width="1080" data-height="1920">
+      <audio id="voiceTrack" data-track-id="voice" src="assets/voiceover.mp3" preload="auto" data-start="0" data-duration="51.16"></audio>
+      <!-- Ambient Glows -->
+      <div class="ambient-glow glow-gold"></div>
+      <div class="ambient-glow glow-red"></div>
+
+      <!-- Persistent Hook Headline -->
+      <div class="top-lockup">
+        <div class="badge-capsule" id="topBadge">
+          <span>🧠 VIRAL MATH RIDDLE</span>
+        </div>
+        <div class="hook-title-line1">DUKAANDAR KA</div>
+        <div class="hook-title-line2">KITNA LOSS HUA? 💸</div>
+      </div>
+
+      <!-- Center Stage Area -->
+      <div class="stage">
+        
+        <!-- SCENE 1 (0.0s - 4.8s): The Hook -->
+        <div class="scene" id="scene1">
+          <div class="story-card">
+            <div class="hero-art-wrapper">
+              <img src="assets/shopkeeper_art.jpg" class="hero-art-img" alt="Shopkeeper Riddle" />
+            </div>
+            <div style="font-size: 38px; font-weight: 900; color: #fff;">
+              🚨 99% LOG GALAT HAIN! 🚨
+            </div>
+            <div style="font-size: 26px; color: rgba(255,255,255,0.7); margin-top: 10px;">
+              Can You Solve This in 50 Seconds?
+            </div>
+          </div>
+        </div>
+
+        <!-- SCENE 2 (4.8s - 12.0s): The Deal & ₹500 Note -->
+        <div class="scene" id="scene2">
+          <div class="story-card">
+            <div style="font-size: 32px; font-weight: 900; color: var(--gold); margin-bottom: 20px;">
+              STEP 1: CHOR DUKAN PAR AAYA
+            </div>
+            <div class="deal-row">
+              <div class="deal-pill success">
+                <div class="deal-val">🛒 ₹200</div>
+                <div class="deal-label">Samaan Khareeda</div>
+              </div>
+              <div class="deal-pill alert">
+                <div class="deal-val">💵 ₹500</div>
+                <div class="deal-label">Note Diya (Fake!)</div>
+              </div>
+            </div>
+            <div style="margin-top: 36px; font-size: 28px; font-weight: 800; color: #fff;">
+              ⚠️ Dukaandar ke paas khulla nahi tha!
+            </div>
+          </div>
+        </div>
+
+        <!-- SCENE 3 (12.0s - 18.2s): Neighbor Exchange -->
+        <div class="scene" id="scene3">
+          <div class="story-card">
+            <div style="font-size: 32px; font-weight: 900; color: var(--cyan); margin-bottom: 20px;">
+              STEP 2: PADOSI SE KHULLA LIYA
+            </div>
+            <div class="deal-row">
+              <div class="deal-pill">
+                <div class="deal-val">🏪 PADOSI</div>
+                <div class="deal-label">Gave ₹500 Note</div>
+              </div>
+              <div style="font-size: 50px;">➡️</div>
+              <div class="deal-pill success">
+                <div class="deal-val">5x ₹100</div>
+                <div class="deal-label">₹500 Cash Mila</div>
+              </div>
+            </div>
+            <div style="margin-top: 30px; font-size: 28px; color: var(--emerald); font-weight: 900;">
+              ✅ Ab dukaandar ke paas ₹500 Cash hai!
+            </div>
+          </div>
+        </div>
+
+        <!-- SCENE 4 (18.2s - 26.0s): Customer Leaves -->
+        <div class="scene" id="scene4">
+          <div class="story-card">
+            <div style="font-size: 32px; font-weight: 900; color: var(--gold); margin-bottom: 20px;">
+              STEP 3: CHOR KO DIYA
+            </div>
+            <div class="deal-row">
+              <div class="deal-pill">
+                <div class="deal-val">📦 ₹200</div>
+                <div class="deal-label">Samaan Diya</div>
+              </div>
+              <div class="deal-pill success">
+                <div class="deal-val">💰 ₹300</div>
+                <div class="deal-label">Cash Wapas Diya</div>
+              </div>
+            </div>
+            <div style="margin-top: 32px; font-size: 34px; font-weight: 900; color: var(--alert-red);">
+              🏃‍♂️ CHOR CHALA GAYA!
+            </div>
+          </div>
+        </div>
+
+        <!-- SCENE 5 (26.0s - 37.0s): The Neighbor Returns (Fake Note) -->
+        <div class="scene" id="scene5">
+          <div class="story-card" style="border-color: var(--alert-red);">
+            <div style="font-size: 32px; font-weight: 900; color: var(--alert-red); margin-bottom: 16px;">
+              🚨 TWIST: PADOSI WAPAS AAYA!
+            </div>
+            <div style="font-size: 40px; font-weight: 900; color: #fff; margin: 16px 0;">
+              "YEH ₹500 NOTE NAKLI HAI!"
+            </div>
+            <div class="deal-pill alert" style="margin-top: 20px; width: 80%;">
+              <div class="deal-val">-₹500 CASH</div>
+              <div class="deal-label">Dukaandar ne apni jeb se diya!</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCENE 6 (37.0s - 51.0s): The Question & Comment Arena -->
+        <div class="scene" id="scene6">
+          <div class="story-card">
+            <div style="font-size: 36px; font-weight: 900; color: var(--gold);">
+              DUKAANDAR KA TOTAL LOSS?
+            </div>
+            <div class="quiz-options">
+              <div class="quiz-btn opt-a">
+                <span>A) ₹500</span>
+                <span style="font-size: 28px; opacity: 0.8;">(Only Note?)</span>
+              </div>
+              <div class="quiz-btn opt-b">
+                <span>B) ₹800</span>
+                <span style="font-size: 28px; opacity: 0.8;">(₹500 + ₹300?)</span>
+              </div>
+              <div class="quiz-btn opt-c">
+                <span>C) ₹1000</span>
+                <span style="font-size: 28px; opacity: 0.8;">(Total Cash?)</span>
+              </div>
+            </div>
+            <div style="margin-top: 26px; font-size: 30px; font-weight: 900; color: #fff;">
+              👇 COMMENT YOUR ANSWER 👇
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Kinetic Captions Container (Lower Third Safe Zone) -->
+      <div class="caption-container">
+        <div class="caption-pill" id="captionPill">
+          <span class="caption-word" id="captionWord">99% LOG FAIL!</span>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      // Ambient Glow movements
+      gsap.to(".glow-gold", { x: 70, y: -40, duration: 4, repeat: 12, yoyo: true, ease: "sine.inOut" });
+      gsap.to(".glow-red", { x: -60, y: 50, duration: 5, repeat: 10, yoyo: true, ease: "sine.inOut" });
+
+      function sceneIn(id, startTime, duration = 0.4) {
+        tl.set(id, { visibility: "visible" }, startTime);
+        tl.fromTo(id, 
+          { opacity: 0, scale: 0.88, y: 35 },
+          { opacity: 1, scale: 1, y: 0, duration: duration, ease: "back.out(1.5)" },
+          startTime
+        );
+      }
+      function sceneOut(id, outTime, duration = 0.3) {
+        tl.to(id, { opacity: 0, scale: 1.05, y: -25, duration: duration, ease: "power2.in" }, outTime);
+        tl.set(id, { opacity: 0, visibility: "hidden" }, outTime + duration);
+      }
+
+      // --- TIMELINE ORCHESTRATION (51.16s Total Duration) ---
+      // Scene 1: Hook (0.0s - 4.8s)
+      sceneIn("#scene1", 0.0);
+      sceneOut("#scene1", 4.5);
+
+      // Scene 2: The Deal & Fake Note (4.8s - 12.0s)
+      sceneIn("#scene2", 4.8);
+      sceneOut("#scene2", 11.6);
+
+      // Scene 3: Neighbor Exchange (12.0s - 18.2s)
+      sceneIn("#scene3", 12.0);
+      sceneOut("#scene3", 17.8);
+
+      // Scene 4: Customer Takes Goods & Cash (18.2s - 26.0s)
+      sceneIn("#scene4", 18.2);
+      sceneOut("#scene4", 25.5);
+
+      // Scene 5: Neighbor Returns (Twist) (26.0s - 37.0s)
+      sceneIn("#scene5", 26.0);
+      sceneOut("#scene5", 36.5);
+
+      // Scene 6: Quiz Voting Arena (37.0s - 51.1s)
+      sceneIn("#scene6", 37.0);
+      tl.fromTo(".quiz-btn", 
+        { scale: 0.8, opacity: 0 },
+        { scale: 1, opacity: 1, stagger: 0.3, duration: 0.4, ease: "elastic.out(1, 0.6)" },
+        38.0
+      );
+
+      // Progress bar fill across 51.16 seconds
+      tl.to("#progressBar", { width: "100%", duration: 51.16, ease: "linear" }, 0);
+
+      // --- KINETIC CAPTIONS SYNCHRONIZED ---
+      const captions = [
+        { t: 0.0,  text: "99% LOG FAIL HO JAATE HAIN!", hl: true },
+        { t: 3.0,  text: "DHYAN SE SUNO!", hl: false },
+        { t: 4.8,  text: "EK CHOR DUKAN PAR AAYA", hl: false },
+        { t: 6.8,  text: "₹200 KA SAMAAN KHAREEDA", hl: true },
+        { t: 9.2,  text: "AUR ₹500 KA NOTE DIYA", hl: true, alert: true },
+        { t: 12.0, text: "DUKAANDAR KE PAAS KHULLA NAHI THA", hl: false },
+        { t: 14.5, text: "PADOSI SE 500 KE KHULLE LIYE", hl: true },
+        { t: 18.2, text: "CHOR KO ₹200 SAMAAN DIYA", hl: false },
+        { t: 21.0, text: "AUR ₹300 CASH DIYA", hl: true },
+        { t: 24.0, text: "CHOR CHALA GAYA!", alert: true },
+        { t: 26.0, text: "AGLI SUBAH PADOSI AAYA", hl: false },
+        { t: 28.5, text: "NOTE NAKLI HAI!", alert: true },
+        { t: 32.0, text: "DUKAANDAR NE ₹500 JEB SE DIYE", hl: true },
+        { t: 37.0, text: "DUKAANDAR KA TOTAL LOSS?", hl: true },
+        { t: 40.8, text: "₹500?", hl: true },
+        { t: 42.2, text: "₹800?", hl: true },
+        { t: 43.6, text: "YA FIR ₹1000?", alert: true },
+        { t: 46.2, text: "COMMENT MEIN BATAO!", hl: true }
+      ];
+
+      captions.forEach((cap) => {
+        tl.call(() => {
+          const el = document.getElementById("captionWord");
+          el.innerText = cap.text;
+          el.className = "caption-word";
+          if (cap.alert) {
+            el.classList.add("alert");
+          } else if (cap.hl) {
+            el.classList.add("highlight");
+          }
+          gsap.fromTo("#captionPill", { scale: 0.92 }, { scale: 1, duration: 0.18, ease: "back.out(2)" });
+        }, null, cap.t);
+      });
+
+      // Register timeline for Hyperframes engine
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+
+      // Support instant frame preview via URL parameter: ?t=seconds
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('t')) {
+        tl.seek(parseFloat(urlParams.get('t')));
+      }
+    </script>
+  </body>
+</html>

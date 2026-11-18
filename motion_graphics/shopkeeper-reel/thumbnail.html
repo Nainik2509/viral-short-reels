@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Thumbnail - The Shopkeeper & Fake ₹500 Note</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Poppins:wght@800;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --gold: #ffd700;
+        --amber: #ffb703;
+        --alert-red: #ff3b30;
+        --emerald: #00e676;
+        --cyan: #00f0ff;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #000;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+      }
+
+      /* Background 3D Character Illustration */
+      .bg-art {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1080px;
+        height: 1920px;
+        object-fit: cover;
+        object-position: center 30%;
+        filter: contrast(1.1) brightness(0.92);
+      }
+
+      /* Vignette & Gradients to guarantee 100% text legibility */
+      .top-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1080px;
+        height: 600px;
+        background: linear-gradient(180deg, rgba(5,7,14,0.95) 0%, rgba(5,7,14,0.7) 60%, rgba(5,7,14,0) 100%);
+        z-index: 10;
+      }
+      .bottom-gradient {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 1080px;
+        height: 700px;
+        background: linear-gradient(0deg, rgba(5,7,14,0.96) 0%, rgba(5,7,14,0.75) 60%, rgba(5,7,14,0) 100%);
+        z-index: 10;
+      }
+
+      /* Upper-Third Two-Tone Headline */
+      .headline-container {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        z-index: 20;
+      }
+      .badge {
+        background: #ff3b30;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 900;
+        padding: 12px 36px;
+        border-radius: 50px;
+        letter-spacing: 0.04em;
+        box-shadow: 0 10px 35px rgba(255, 59, 48, 0.7);
+        margin-bottom: 24px;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+      }
+      .title-l1 {
+        font-size: 78px;
+        font-weight: 900;
+        color: #ffffff;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        line-height: 1.05;
+        text-shadow: 
+          -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000,
+          0 8px 0 #000, 0 12px 30px rgba(0,0,0,0.9);
+      }
+      .title-l2 {
+        font-size: 96px;
+        font-weight: 900;
+        color: var(--gold);
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        line-height: 1.05;
+        text-shadow: 
+          -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000,
+          0 8px 0 #000, 0 16px 40px rgba(255, 215, 0, 0.6);
+      }
+
+      /* Blackboard / Offer Prop in Center */
+      .blackboard {
+        position: absolute;
+        top: 760px;
+        right: 40px;
+        width: 440px;
+        background: rgba(18, 22, 28, 0.92);
+        border: 5px solid #d4a373; /* Wooden chalk board frame */
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.8), 0 0 30px rgba(0,0,0,0.5);
+        z-index: 25;
+        transform: rotate(3deg);
+      }
+      .chalk-title {
+        font-size: 24px;
+        font-weight: 900;
+        color: #e9ecef;
+        text-transform: uppercase;
+        border-bottom: 2px dashed rgba(255,255,255,0.3);
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+        text-align: center;
+      }
+      .chalk-item {
+        font-size: 28px;
+        font-weight: 800;
+        color: #fff;
+        margin: 8px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .chalk-item.alert {
+        color: #ff4d4f;
+        font-weight: 900;
+      }
+
+      /* Lower-Third: 3-Choice Question Box */
+      .lower-container {
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        width: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 20;
+        padding: 0 40px;
+      }
+      .quiz-header {
+        font-size: 42px;
+        font-weight: 900;
+        color: #fff;
+        margin-bottom: 24px;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.9);
+      }
+      .btn-row {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+      .choice-pill {
+        flex: 1;
+        padding: 24px 16px;
+        border-radius: 22px;
+        font-size: 44px;
+        font-weight: 900;
+        text-align: center;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+        border: 4px solid #fff;
+      }
+      .choice-a {
+        background: rgba(0, 240, 255, 0.2);
+        border-color: var(--cyan);
+        color: var(--cyan);
+      }
+      .choice-b {
+        background: rgba(255, 215, 0, 0.2);
+        border-color: var(--gold);
+        color: var(--gold);
+      }
+      .choice-c {
+        background: rgba(255, 59, 48, 0.2);
+        border-color: var(--alert-red);
+        color: var(--alert-red);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Character Artwork -->
+    <img src="assets/shopkeeper_art.jpg" class="bg-art" alt="Shopkeeper illustration" />
+
+    <!-- Contrast Gradients -->
+    <div class="top-gradient"></div>
+    <div class="bottom-gradient"></div>
+
+    <!-- Upper Third Headline -->
+    <div class="headline-container">
+      <div class="badge">🚨 99% LOG GALAT HAIN! 🚨</div>
+      <div class="title-l1">DUKAANDAR KA</div>
+      <div class="title-l2">KITNA LOSS HUA? 💸</div>
+    </div>
+
+    <!-- Blackboard Prop in Center -->
+    <div class="blackboard">
+      <div class="chalk-title">THE EQUATION</div>
+      <div class="chalk-item">
+        <span>🛒 Samaan:</span>
+        <span style="color: var(--emerald);">₹200</span>
+      </div>
+      <div class="chalk-item">
+        <span>💰 Khulla:</span>
+        <span style="color: var(--cyan);">₹300</span>
+      </div>
+      <div class="chalk-item alert">
+        <span>⚠️ Note:</span>
+        <span>FAKE ₹500</span>
+      </div>
+    </div>
+
+    <!-- Lower Third 3-Choice Voting Buttons -->
+    <div class="lower-container">
+      <div class="quiz-header">VOTE YOUR ANSWER:</div>
+      <div class="btn-row">
+        <div class="choice-pill choice-a">₹500</div>
+        <div class="choice-pill choice-b">₹800</div>
+        <div class="choice-pill choice-c">₹1000</div>
+      </div>
+    </div>
+  </body>
+</html>

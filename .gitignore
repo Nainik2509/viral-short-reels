@@ -1,0 +1,63 @@
+# ───────────── Secrets ─────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ───────────── Dependencies / envs ─────────────
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+
+# ───────────── OS / editor ─────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ───────────── Agent skills (reinstall: see README → Setup) ─────────────
+# Versions are pinned in skills-lock.json
+.agents/
+.claude/skills/
+
+# ───────────── Heavy media (never commit) ─────────────
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.zip
+
+# ───────────── Your footage & references (private, large) ─────────────
+Raw footage/*
+!Raw footage/.gitkeep
+References/*
+!References/.gitkeep
+style reference/*
+!style reference/.gitkeep
+Exports/*
+!Exports/.gitkeep
+
+# ───────────── Legacy export folder: keep metadata/SRT/thumbnails, not video/audio/frames ─────────────
+export/**/preview_frame_*
+export/**/hyperframes_raw*
+
+# ───────────── Render / tool scratch ─────────────
+out/
+.remotion/
+*.log
+motion_graphics/**/.hyperframes/
+motion_graphics/**/renders/
+motion_graphics/**/node_modules/
+*.tmp
