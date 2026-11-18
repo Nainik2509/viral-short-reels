@@ -1,0 +1,3 @@
+# Installed into the shared ../.venv (Python 3.12) used by the whole Viral Reel Studio.
+# edge-tts and openai-whisper are already there; this adds word-level timing.
+faster-whisper>=1.0.0

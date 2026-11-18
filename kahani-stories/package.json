@@ -1,0 +1,20 @@
+{
+  "name": "kahani-stories",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kahani Stories - animated vertical story studio (Remotion, 1080x1920 @ 30fps). Remotion + React come from the parent Viral Reel Studio package.json; only dev tooling lives here.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts",
+    "still": "remotion still src/index.ts",
+    "storyboard": "bash tools/storyboard.sh",
+    "timings": "../.venv/bin/python tools/timings.py",
+    "voice": "../.venv/bin/python ../scripts/voiceover.py",
+    "typecheck": "tsc --noEmit",
+    "test-render": "remotion render src/index.ts RigWalkTest out/rig-walk-test.mp4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

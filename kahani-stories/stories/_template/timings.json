@@ -1,0 +1,7 @@
+{
+  "audio": "voice/<slug>.mp3",
+  "language": "hi",
+  "duration": 0,
+  "fps": 30,
+  "words": []
+}
