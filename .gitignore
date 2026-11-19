@@ -22,7 +22,9 @@ __pycache__/
 # ───────────── Agent skills (reinstall: see README → Setup) ─────────────
 # Versions are pinned in skills-lock.json
 .agents/
-.claude/skills/
+.claude/skills/*
+# Our own custom skills are NOT reinstallable from skills-lock.json, so they are tracked:
+!.claude/skills/3d-character-short/
 
 # ───────────── Heavy media (never commit) ─────────────
 *.mp4

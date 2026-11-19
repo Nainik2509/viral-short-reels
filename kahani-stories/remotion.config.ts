@@ -6,3 +6,6 @@ Config.setCodec("h264");
 Config.setOverwriteOutput(true);
 Config.setPixelFormat("yuv420p");
 Config.setCrf(18);
+
+// WebGL (three.js) in headless Chrome needs ANGLE.
+Config.setChromiumOpenGlRenderer("angle");
