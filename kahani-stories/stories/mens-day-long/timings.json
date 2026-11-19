@@ -1,0 +1,2728 @@
+{
+  "audio": "kahani-stories/voice/mens_day_long.mp3",
+  "language": "en",
+  "language_probability": 0.999,
+  "duration": 136.32,
+  "model": "small",
+  "fps": 30,
+  "text": "Every single morning, before the city even wakes up, millions of men quietly put on an invisible suit of armor. They step out into the rush, a son, a brother, a father, a provider. Their shoulders might be heavy, but their backs stay straight. Because from the time they are little boys, they are taught one unspoken rule, be the pillar that never bends. At the desk, deadlines stack up. Rent is due. Medical bills arrive in quiet envelopes. A message pings on his phone, beta, did you manage the payment? Without hesitating for even a second, his fingers type back, don't worry papa, saps sorted high. Even when his own bank account is scraping zero, he smiles. Men learn to swallow fear until holding everything together feels like their only job. And then comes midnight. The commute finally ends. He pulls into the driveway, turns off the engine, and just sits. In that dark, quiet car, under the rainy amber streetlights, he doesn't check his phone. He doesn't go inside. Why? Because for 10 fleeting minutes, he doesn't have to be a protector. He doesn't have to fix anything. He doesn't have to be brave. For 10 minutes, he is just human. A gentle knock on the window breaks the silence. It's his brother, holding two cups of warm chai. No questions about work. No demands. No expectations. Just a warm smile, and four simple words, to thik hai na, bye. And right there, the invisible armor finally melts away. To every man who carries silent burdens without asking for applause. To every man who builds a shelter for others while standing in the storm. You don't have to carry the whole world alone. It's okay to feel. It's okay to rest. It's okay to ask for a hand. Today, we see you, we appreciate you, and we honor you. Happy International Men's Day.",
+  "words": [
+    {
+      "i": 0,
+      "word": "Every",
+      "start": 0.0,
+      "end": 0.44,
+      "startFrame": 0,
+      "endFrame": 13
+    },
+    {
+      "i": 1,
+      "word": "single",
+      "start": 0.44,
+      "end": 0.8,
+      "startFrame": 13,
+      "endFrame": 24
+    },
+    {
+      "i": 2,
+      "word": "morning,",
+      "start": 0.8,
+      "end": 1.2,
+      "startFrame": 24,
+      "endFrame": 36
+    },
+    {
+      "i": 3,
+      "word": "before",
+      "start": 1.54,
+      "end": 1.8,
+      "startFrame": 46,
+      "endFrame": 54
+    },
+    {
+      "i": 4,
+      "word": "the",
+      "start": 1.8,
+      "end": 2.02,
+      "startFrame": 54,
+      "endFrame": 61
+    },
+    {
+      "i": 5,
+      "word": "city",
+      "start": 2.02,
+      "end": 2.28,
+      "startFrame": 61,
+      "endFrame": 68
+    },
+    {
+      "i": 6,
+      "word": "even",
+      "start": 2.28,
+      "end": 2.64,
+      "startFrame": 68,
+      "endFrame": 79
+    },
+    {
+      "i": 7,
+      "word": "wakes",
+      "start": 2.64,
+      "end": 2.9,
+      "startFrame": 79,
+      "endFrame": 87
+    },
+    {
+      "i": 8,
+      "word": "up,",
+      "start": 2.9,
+      "end": 3.16,
+      "startFrame": 87,
+      "endFrame": 95
+    },
+    {
+      "i": 9,
+      "word": "millions",
+      "start": 3.48,
+      "end": 3.78,
+      "startFrame": 104,
+      "endFrame": 113
+    },
+    {
+      "i": 10,
+      "word": "of",
+      "start": 3.78,
+      "end": 4.06,
+      "startFrame": 113,
+      "endFrame": 122
+    },
+    {
+      "i": 11,
+      "word": "men",
+      "start": 4.06,
+      "end": 4.24,
+      "startFrame": 122,
+      "endFrame": 127
+    },
+    {
+      "i": 12,
+      "word": "quietly",
+      "start": 4.24,
+      "end": 4.72,
+      "startFrame": 127,
+      "endFrame": 142
+    },
+    {
+      "i": 13,
+      "word": "put",
+      "start": 4.72,
+      "end": 5.06,
+      "startFrame": 142,
+      "endFrame": 152
+    },
+    {
+      "i": 14,
+      "word": "on",
+      "start": 5.06,
+      "end": 5.24,
+      "startFrame": 152,
+      "endFrame": 157
+    },
+    {
+      "i": 15,
+      "word": "an",
+      "start": 5.24,
+      "end": 5.36,
+      "startFrame": 157,
+      "endFrame": 161
+    },
+    {
+      "i": 16,
+      "word": "invisible",
+      "start": 5.36,
+      "end": 5.68,
+      "startFrame": 161,
+      "endFrame": 170
+    },
+    {
+      "i": 17,
+      "word": "suit",
+      "start": 5.68,
+      "end": 6.1,
+      "startFrame": 170,
+      "endFrame": 183
+    },
+    {
+      "i": 18,
+      "word": "of",
+      "start": 6.1,
+      "end": 6.26,
+      "startFrame": 183,
+      "endFrame": 188
+    },
+    {
+      "i": 19,
+      "word": "armor.",
+      "start": 6.26,
+      "end": 6.52,
+      "startFrame": 188,
+      "endFrame": 196
+    },
+    {
+      "i": 20,
+      "word": "They",
+      "start": 7.46,
+      "end": 7.78,
+      "startFrame": 224,
+      "endFrame": 233
+    },
+    {
+      "i": 21,
+      "word": "step",
+      "start": 7.78,
+      "end": 8.04,
+      "startFrame": 233,
+      "endFrame": 241
+    },
+    {
+      "i": 22,
+      "word": "out",
+      "start": 8.04,
+      "end": 8.3,
+      "startFrame": 241,
+      "endFrame": 249
+    },
+    {
+      "i": 23,
+      "word": "into",
+      "start": 8.3,
+      "end": 8.54,
+      "startFrame": 249,
+      "endFrame": 256
+    },
+    {
+      "i": 24,
+      "word": "the",
+      "start": 8.54,
+      "end": 8.7,
+      "startFrame": 256,
+      "endFrame": 261
+    },
+    {
+      "i": 25,
+      "word": "rush,",
+      "start": 8.7,
+      "end": 8.94,
+      "startFrame": 261,
+      "endFrame": 268
+    },
+    {
+      "i": 26,
+      "word": "a",
+      "start": 9.3,
+      "end": 9.42,
+      "startFrame": 279,
+      "endFrame": 283
+    },
+    {
+      "i": 27,
+      "word": "son,",
+      "start": 9.42,
+      "end": 9.72,
+      "startFrame": 283,
+      "endFrame": 292
+    },
+    {
+      "i": 28,
+      "word": "a",
+      "start": 10.06,
+      "end": 10.18,
+      "startFrame": 302,
+      "endFrame": 305
+    },
+    {
+      "i": 29,
+      "word": "brother,",
+      "start": 10.18,
+      "end": 10.4,
+      "startFrame": 305,
+      "endFrame": 312
+    },
+    {
+      "i": 30,
+      "word": "a",
+      "start": 10.78,
+      "end": 10.88,
+      "startFrame": 323,
+      "endFrame": 326
+    },
+    {
+      "i": 31,
+      "word": "father,",
+      "start": 10.88,
+      "end": 11.18,
+      "startFrame": 326,
+      "endFrame": 335
+    },
+    {
+      "i": 32,
+      "word": "a",
+      "start": 11.5,
+      "end": 11.62,
+      "startFrame": 345,
+      "endFrame": 349
+    },
+    {
+      "i": 33,
+      "word": "provider.",
+      "start": 11.62,
+      "end": 12.0,
+      "startFrame": 349,
+      "endFrame": 360
+    },
+    {
+      "i": 34,
+      "word": "Their",
+      "start": 13.12,
+      "end": 13.32,
+      "startFrame": 394,
+      "endFrame": 400
+    },
+    {
+      "i": 35,
+      "word": "shoulders",
+      "start": 13.32,
+      "end": 13.68,
+      "startFrame": 400,
+      "endFrame": 410
+    },
+    {
+      "i": 36,
+      "word": "might",
+      "start": 13.68,
+      "end": 14.02,
+      "startFrame": 410,
+      "endFrame": 421
+    },
+    {
+      "i": 37,
+      "word": "be",
+      "start": 14.02,
+      "end": 14.22,
+      "startFrame": 421,
+      "endFrame": 427
+    },
+    {
+      "i": 38,
+      "word": "heavy,",
+      "start": 14.22,
+      "end": 14.56,
+      "startFrame": 427,
+      "endFrame": 437
+    },
+    {
+      "i": 39,
+      "word": "but",
+      "start": 14.8,
+      "end": 14.92,
+      "startFrame": 444,
+      "endFrame": 448
+    },
+    {
+      "i": 40,
+      "word": "their",
+      "start": 14.92,
+      "end": 15.08,
+      "startFrame": 448,
+      "endFrame": 452
+    },
+    {
+      "i": 41,
+      "word": "backs",
+      "start": 15.08,
+      "end": 15.34,
+      "startFrame": 452,
+      "endFrame": 460
+    },
+    {
+      "i": 42,
+      "word": "stay",
+      "start": 15.34,
+      "end": 15.64,
+      "startFrame": 460,
+      "endFrame": 469
+    },
+    {
+      "i": 43,
+      "word": "straight.",
+      "start": 15.64,
+      "end": 16.06,
+      "startFrame": 469,
+      "endFrame": 482
+    },
+    {
+      "i": 44,
+      "word": "Because",
+      "start": 16.88,
+      "end": 17.32,
+      "startFrame": 506,
+      "endFrame": 520
+    },
+    {
+      "i": 45,
+      "word": "from",
+      "start": 17.32,
+      "end": 17.58,
+      "startFrame": 520,
+      "endFrame": 527
+    },
+    {
+      "i": 46,
+      "word": "the",
+      "start": 17.58,
+      "end": 17.7,
+      "startFrame": 527,
+      "endFrame": 531
+    },
+    {
+      "i": 47,
+      "word": "time",
+      "start": 17.7,
+      "end": 17.98,
+      "startFrame": 531,
+      "endFrame": 539
+    },
+    {
+      "i": 48,
+      "word": "they",
+      "start": 17.98,
+      "end": 18.18,
+      "startFrame": 539,
+      "endFrame": 545
+    },
+    {
+      "i": 49,
+      "word": "are",
+      "start": 18.18,
+      "end": 18.28,
+      "startFrame": 545,
+      "endFrame": 548
+    },
+    {
+      "i": 50,
+      "word": "little",
+      "start": 18.28,
+      "end": 18.48,
+      "startFrame": 548,
+      "endFrame": 554
+    },
+    {
+      "i": 51,
+      "word": "boys,",
+      "start": 18.48,
+      "end": 18.84,
+      "startFrame": 554,
+      "endFrame": 565
+    },
+    {
+      "i": 52,
+      "word": "they",
+      "start": 19.28,
+      "end": 19.42,
+      "startFrame": 578,
+      "endFrame": 583
+    },
+    {
+      "i": 53,
+      "word": "are",
+      "start": 19.42,
+      "end": 19.52,
+      "startFrame": 583,
+      "endFrame": 586
+    },
+    {
+      "i": 54,
+      "word": "taught",
+      "start": 19.52,
+      "end": 19.78,
+      "startFrame": 586,
+      "endFrame": 593
+    },
+    {
+      "i": 55,
+      "word": "one",
+      "start": 19.78,
+      "end": 20.1,
+      "startFrame": 593,
+      "endFrame": 603
+    },
+    {
+      "i": 56,
+      "word": "unspoken",
+      "start": 20.1,
+      "end": 20.7,
+      "startFrame": 603,
+      "endFrame": 621
+    },
+    {
+      "i": 57,
+      "word": "rule,",
+      "start": 20.7,
+      "end": 21.06,
+      "startFrame": 621,
+      "endFrame": 632
+    },
+    {
+      "i": 58,
+      "word": "be",
+      "start": 21.46,
+      "end": 21.56,
+      "startFrame": 644,
+      "endFrame": 647
+    },
+    {
+      "i": 59,
+      "word": "the",
+      "start": 21.56,
+      "end": 21.74,
+      "startFrame": 647,
+      "endFrame": 652
+    },
+    {
+      "i": 60,
+      "word": "pillar",
+      "start": 21.74,
+      "end": 21.98,
+      "startFrame": 652,
+      "endFrame": 659
+    },
+    {
+      "i": 61,
+      "word": "that",
+      "start": 21.98,
+      "end": 22.24,
+      "startFrame": 659,
+      "endFrame": 667
+    },
+    {
+      "i": 62,
+      "word": "never",
+      "start": 22.24,
+      "end": 22.5,
+      "startFrame": 667,
+      "endFrame": 675
+    },
+    {
+      "i": 63,
+      "word": "bends.",
+      "start": 22.5,
+      "end": 22.92,
+      "startFrame": 675,
+      "endFrame": 688
+    },
+    {
+      "i": 64,
+      "word": "At",
+      "start": 23.98,
+      "end": 24.18,
+      "startFrame": 719,
+      "endFrame": 725
+    },
+    {
+      "i": 65,
+      "word": "the",
+      "start": 24.18,
+      "end": 24.3,
+      "startFrame": 725,
+      "endFrame": 729
+    },
+    {
+      "i": 66,
+      "word": "desk,",
+      "start": 24.3,
+      "end": 24.7,
+      "startFrame": 729,
+      "endFrame": 741
+    },
+    {
+      "i": 67,
+      "word": "deadlines",
+      "start": 25.04,
+      "end": 25.36,
+      "startFrame": 751,
+      "endFrame": 761
+    },
+    {
+      "i": 68,
+      "word": "stack",
+      "start": 25.36,
+      "end": 25.78,
+      "startFrame": 761,
+      "endFrame": 773
+    },
+    {
+      "i": 69,
+      "word": "up.",
+      "start": 25.78,
+      "end": 26.08,
+      "startFrame": 773,
+      "endFrame": 782
+    },
+    {
+      "i": 70,
+      "word": "Rent",
+      "start": 27.04,
+      "end": 27.32,
+      "startFrame": 811,
+      "endFrame": 820
+    },
+    {
+      "i": 71,
+      "word": "is",
+      "start": 27.32,
+      "end": 27.52,
+      "startFrame": 820,
+      "endFrame": 826
+    },
+    {
+      "i": 72,
+      "word": "due.",
+      "start": 27.52,
+      "end": 27.76,
+      "startFrame": 826,
+      "endFrame": 833
+    },
+    {
+      "i": 73,
+      "word": "Medical",
+      "start": 28.5,
+      "end": 29.14,
+      "startFrame": 855,
+      "endFrame": 874
+    },
+    {
+      "i": 74,
+      "word": "bills",
+      "start": 29.14,
+      "end": 29.6,
+      "startFrame": 874,
+      "endFrame": 888
+    },
+    {
+      "i": 75,
+      "word": "arrive",
+      "start": 29.6,
+      "end": 30.0,
+      "startFrame": 888,
+      "endFrame": 900
+    },
+    {
+      "i": 76,
+      "word": "in",
+      "start": 30.0,
+      "end": 30.22,
+      "startFrame": 900,
+      "endFrame": 907
+    },
+    {
+      "i": 77,
+      "word": "quiet",
+      "start": 30.22,
+      "end": 30.6,
+      "startFrame": 907,
+      "endFrame": 918
+    },
+    {
+      "i": 78,
+      "word": "envelopes.",
+      "start": 30.6,
+      "end": 31.38,
+      "startFrame": 918,
+      "endFrame": 941
+    },
+    {
+      "i": 79,
+      "word": "A",
+      "start": 32.2,
+      "end": 32.46,
+      "startFrame": 966,
+      "endFrame": 974
+    },
+    {
+      "i": 80,
+      "word": "message",
+      "start": 32.46,
+      "end": 32.74,
+      "startFrame": 974,
+      "endFrame": 982
+    },
+    {
+      "i": 81,
+      "word": "pings",
+      "start": 32.74,
+      "end": 33.16,
+      "startFrame": 982,
+      "endFrame": 995
+    },
+    {
+      "i": 82,
+      "word": "on",
+      "start": 33.16,
+      "end": 33.36,
+      "startFrame": 995,
+      "endFrame": 1001
+    },
+    {
+      "i": 83,
+      "word": "his",
+      "start": 33.36,
+      "end": 33.48,
+      "startFrame": 1001,
+      "endFrame": 1004
+    },
+    {
+      "i": 84,
+      "word": "phone,",
+      "start": 33.48,
+      "end": 33.78,
+      "startFrame": 1004,
+      "endFrame": 1013
+    },
+    {
+      "i": 85,
+      "word": "beta,",
+      "start": 34.12,
+      "end": 34.34,
+      "startFrame": 1024,
+      "endFrame": 1030
+    },
+    {
+      "i": 86,
+      "word": "did",
+      "start": 34.76,
+      "end": 34.82,
+      "startFrame": 1043,
+      "endFrame": 1045
+    },
+    {
+      "i": 87,
+      "word": "you",
+      "start": 34.82,
+      "end": 34.96,
+      "startFrame": 1045,
+      "endFrame": 1049
+    },
+    {
+      "i": 88,
+      "word": "manage",
+      "start": 34.96,
+      "end": 35.26,
+      "startFrame": 1049,
+      "endFrame": 1058
+    },
+    {
+      "i": 89,
+      "word": "the",
+      "start": 35.26,
+      "end": 35.46,
+      "startFrame": 1058,
+      "endFrame": 1064
+    },
+    {
+      "i": 90,
+      "word": "payment?",
+      "start": 35.46,
+      "end": 35.72,
+      "startFrame": 1064,
+      "endFrame": 1072
+    },
+    {
+      "i": 91,
+      "word": "Without",
+      "start": 36.82,
+      "end": 37.16,
+      "startFrame": 1105,
+      "endFrame": 1115
+    },
+    {
+      "i": 92,
+      "word": "hesitating",
+      "start": 37.16,
+      "end": 37.78,
+      "startFrame": 1115,
+      "endFrame": 1133
+    },
+    {
+      "i": 93,
+      "word": "for",
+      "start": 37.78,
+      "end": 38.06,
+      "startFrame": 1133,
+      "endFrame": 1142
+    },
+    {
+      "i": 94,
+      "word": "even",
+      "start": 38.06,
+      "end": 38.3,
+      "startFrame": 1142,
+      "endFrame": 1149
+    },
+    {
+      "i": 95,
+      "word": "a",
+      "start": 38.3,
+      "end": 38.5,
+      "startFrame": 1149,
+      "endFrame": 1155
+    },
+    {
+      "i": 96,
+      "word": "second,",
+      "start": 38.5,
+      "end": 38.82,
+      "startFrame": 1155,
+      "endFrame": 1165
+    },
+    {
+      "i": 97,
+      "word": "his",
+      "start": 39.18,
+      "end": 39.3,
+      "startFrame": 1175,
+      "endFrame": 1179
+    },
+    {
+      "i": 98,
+      "word": "fingers",
+      "start": 39.3,
+      "end": 39.64,
+      "startFrame": 1179,
+      "endFrame": 1189
+    },
+    {
+      "i": 99,
+      "word": "type",
+      "start": 39.64,
+      "end": 39.94,
+      "startFrame": 1189,
+      "endFrame": 1198
+    },
+    {
+      "i": 100,
+      "word": "back,",
+      "start": 39.94,
+      "end": 40.26,
+      "startFrame": 1198,
+      "endFrame": 1208
+    },
+    {
+      "i": 101,
+      "word": "don't",
+      "start": 40.74,
+      "end": 40.94,
+      "startFrame": 1222,
+      "endFrame": 1228
+    },
+    {
+      "i": 102,
+      "word": "worry",
+      "start": 40.94,
+      "end": 41.1,
+      "startFrame": 1228,
+      "endFrame": 1233
+    },
+    {
+      "i": 103,
+      "word": "papa,",
+      "start": 41.1,
+      "end": 41.46,
+      "startFrame": 1233,
+      "endFrame": 1244
+    },
+    {
+      "i": 104,
+      "word": "saps",
+      "start": 41.9,
+      "end": 42.24,
+      "startFrame": 1257,
+      "endFrame": 1267
+    },
+    {
+      "i": 105,
+      "word": "sorted",
+      "start": 42.24,
+      "end": 42.5,
+      "startFrame": 1267,
+      "endFrame": 1275
+    },
+    {
+      "i": 106,
+      "word": "high.",
+      "start": 42.5,
+      "end": 42.86,
+      "startFrame": 1275,
+      "endFrame": 1286
+    },
+    {
+      "i": 107,
+      "word": "Even",
+      "start": 43.76,
+      "end": 44.12,
+      "startFrame": 1313,
+      "endFrame": 1324
+    },
+    {
+      "i": 108,
+      "word": "when",
+      "start": 44.12,
+      "end": 44.32,
+      "startFrame": 1324,
+      "endFrame": 1330
+    },
+    {
+      "i": 109,
+      "word": "his",
+      "start": 44.32,
+      "end": 44.5,
+      "startFrame": 1330,
+      "endFrame": 1335
+    },
+    {
+      "i": 110,
+      "word": "own",
+      "start": 44.5,
+      "end": 44.72,
+      "startFrame": 1335,
+      "endFrame": 1342
+    },
+    {
+      "i": 111,
+      "word": "bank",
+      "start": 44.72,
+      "end": 44.94,
+      "startFrame": 1342,
+      "endFrame": 1348
+    },
+    {
+      "i": 112,
+      "word": "account",
+      "start": 44.94,
+      "end": 45.34,
+      "startFrame": 1348,
+      "endFrame": 1360
+    },
+    {
+      "i": 113,
+      "word": "is",
+      "start": 45.34,
+      "end": 45.56,
+      "startFrame": 1360,
+      "endFrame": 1367
+    },
+    {
+      "i": 114,
+      "word": "scraping",
+      "start": 45.56,
+      "end": 45.88,
+      "startFrame": 1367,
+      "endFrame": 1376
+    },
+    {
+      "i": 115,
+      "word": "zero,",
+      "start": 45.88,
+      "end": 46.34,
+      "startFrame": 1376,
+      "endFrame": 1390
+    },
+    {
+      "i": 116,
+      "word": "he",
+      "start": 46.74,
+      "end": 46.84,
+      "startFrame": 1402,
+      "endFrame": 1405
+    },
+    {
+      "i": 117,
+      "word": "smiles.",
+      "start": 46.84,
+      "end": 47.32,
+      "startFrame": 1405,
+      "endFrame": 1420
+    },
+    {
+      "i": 118,
+      "word": "Men",
+      "start": 48.46,
+      "end": 48.72,
+      "startFrame": 1454,
+      "endFrame": 1462
+    },
+    {
+      "i": 119,
+      "word": "learn",
+      "start": 48.72,
+      "end": 48.94,
+      "startFrame": 1462,
+      "endFrame": 1468
+    },
+    {
+      "i": 120,
+      "word": "to",
+      "start": 48.94,
+      "end": 49.12,
+      "startFrame": 1468,
+      "endFrame": 1474
+    },
+    {
+      "i": 121,
+      "word": "swallow",
+      "start": 49.12,
+      "end": 49.42,
+      "startFrame": 1474,
+      "endFrame": 1483
+    },
+    {
+      "i": 122,
+      "word": "fear",
+      "start": 49.42,
+      "end": 49.9,
+      "startFrame": 1483,
+      "endFrame": 1497
+    },
+    {
+      "i": 123,
+      "word": "until",
+      "start": 49.9,
+      "end": 50.2,
+      "startFrame": 1497,
+      "endFrame": 1506
+    },
+    {
+      "i": 124,
+      "word": "holding",
+      "start": 50.2,
+      "end": 50.56,
+      "startFrame": 1506,
+      "endFrame": 1517
+    },
+    {
+      "i": 125,
+      "word": "everything",
+      "start": 50.56,
+      "end": 51.0,
+      "startFrame": 1517,
+      "endFrame": 1530
+    },
+    {
+      "i": 126,
+      "word": "together",
+      "start": 51.0,
+      "end": 51.42,
+      "startFrame": 1530,
+      "endFrame": 1543
+    },
+    {
+      "i": 127,
+      "word": "feels",
+      "start": 51.42,
+      "end": 51.84,
+      "startFrame": 1543,
+      "endFrame": 1555
+    },
+    {
+      "i": 128,
+      "word": "like",
+      "start": 51.84,
+      "end": 52.12,
+      "startFrame": 1555,
+      "endFrame": 1564
+    },
+    {
+      "i": 129,
+      "word": "their",
+      "start": 52.12,
+      "end": 52.3,
+      "startFrame": 1564,
+      "endFrame": 1569
+    },
+    {
+      "i": 130,
+      "word": "only",
+      "start": 52.3,
+      "end": 52.58,
+      "startFrame": 1569,
+      "endFrame": 1577
+    },
+    {
+      "i": 131,
+      "word": "job.",
+      "start": 52.58,
+      "end": 52.96,
+      "startFrame": 1577,
+      "endFrame": 1589
+    },
+    {
+      "i": 132,
+      "word": "And",
+      "start": 53.8,
+      "end": 54.14,
+      "startFrame": 1614,
+      "endFrame": 1624
+    },
+    {
+      "i": 133,
+      "word": "then",
+      "start": 54.14,
+      "end": 54.32,
+      "startFrame": 1624,
+      "endFrame": 1630
+    },
+    {
+      "i": 134,
+      "word": "comes",
+      "start": 54.32,
+      "end": 54.66,
+      "startFrame": 1630,
+      "endFrame": 1640
+    },
+    {
+      "i": 135,
+      "word": "midnight.",
+      "start": 54.66,
+      "end": 54.98,
+      "startFrame": 1640,
+      "endFrame": 1649
+    },
+    {
+      "i": 136,
+      "word": "The",
+      "start": 55.72,
+      "end": 56.32,
+      "startFrame": 1672,
+      "endFrame": 1690
+    },
+    {
+      "i": 137,
+      "word": "commute",
+      "start": 56.32,
+      "end": 56.6,
+      "startFrame": 1690,
+      "endFrame": 1698
+    },
+    {
+      "i": 138,
+      "word": "finally",
+      "start": 56.6,
+      "end": 57.12,
+      "startFrame": 1698,
+      "endFrame": 1714
+    },
+    {
+      "i": 139,
+      "word": "ends.",
+      "start": 57.12,
+      "end": 57.6,
+      "startFrame": 1714,
+      "endFrame": 1728
+    },
+    {
+      "i": 140,
+      "word": "He",
+      "start": 58.62,
+      "end": 58.86,
+      "startFrame": 1759,
+      "endFrame": 1766
+    },
+    {
+      "i": 141,
+      "word": "pulls",
+      "start": 58.86,
+      "end": 59.18,
+      "startFrame": 1766,
+      "endFrame": 1775
+    },
+    {
+      "i": 142,
+      "word": "into",
+      "start": 59.18,
+      "end": 59.4,
+      "startFrame": 1775,
+      "endFrame": 1782
+    },
+    {
+      "i": 143,
+      "word": "the",
+      "start": 59.4,
+      "end": 59.56,
+      "startFrame": 1782,
+      "endFrame": 1787
+    },
+    {
+      "i": 144,
+      "word": "driveway,",
+      "start": 59.56,
+      "end": 59.96,
+      "startFrame": 1787,
+      "endFrame": 1799
+    },
+    {
+      "i": 145,
+      "word": "turns",
+      "start": 60.4,
+      "end": 60.56,
+      "startFrame": 1812,
+      "endFrame": 1817
+    },
+    {
+      "i": 146,
+      "word": "off",
+      "start": 60.56,
+      "end": 60.84,
+      "startFrame": 1817,
+      "endFrame": 1825
+    },
+    {
+      "i": 147,
+      "word": "the",
+      "start": 60.84,
+      "end": 61.04,
+      "startFrame": 1825,
+      "endFrame": 1831
+    },
+    {
+      "i": 148,
+      "word": "engine,",
+      "start": 61.04,
+      "end": 61.36,
+      "startFrame": 1831,
+      "endFrame": 1841
+    },
+    {
+      "i": 149,
+      "word": "and",
+      "start": 61.7,
+      "end": 61.78,
+      "startFrame": 1851,
+      "endFrame": 1853
+    },
+    {
+      "i": 150,
+      "word": "just",
+      "start": 61.78,
+      "end": 62.02,
+      "startFrame": 1853,
+      "endFrame": 1861
+    },
+    {
+      "i": 151,
+      "word": "sits.",
+      "start": 62.02,
+      "end": 62.32,
+      "startFrame": 1861,
+      "endFrame": 1870
+    },
+    {
+      "i": 152,
+      "word": "In",
+      "start": 63.38,
+      "end": 63.68,
+      "startFrame": 1901,
+      "endFrame": 1910
+    },
+    {
+      "i": 153,
+      "word": "that",
+      "start": 63.68,
+      "end": 63.9,
+      "startFrame": 1910,
+      "endFrame": 1917
+    },
+    {
+      "i": 154,
+      "word": "dark,",
+      "start": 63.9,
+      "end": 64.28,
+      "startFrame": 1917,
+      "endFrame": 1928
+    },
+    {
+      "i": 155,
+      "word": "quiet",
+      "start": 64.58,
+      "end": 64.88,
+      "startFrame": 1937,
+      "endFrame": 1946
+    },
+    {
+      "i": 156,
+      "word": "car,",
+      "start": 64.88,
+      "end": 65.28,
+      "startFrame": 1946,
+      "endFrame": 1958
+    },
+    {
+      "i": 157,
+      "word": "under",
+      "start": 65.56,
+      "end": 65.72,
+      "startFrame": 1967,
+      "endFrame": 1972
+    },
+    {
+      "i": 158,
+      "word": "the",
+      "start": 65.72,
+      "end": 65.92,
+      "startFrame": 1972,
+      "endFrame": 1978
+    },
+    {
+      "i": 159,
+      "word": "rainy",
+      "start": 65.92,
+      "end": 66.12,
+      "startFrame": 1978,
+      "endFrame": 1984
+    },
+    {
+      "i": 160,
+      "word": "amber",
+      "start": 66.12,
+      "end": 66.46,
+      "startFrame": 1984,
+      "endFrame": 1994
+    },
+    {
+      "i": 161,
+      "word": "streetlights,",
+      "start": 66.46,
+      "end": 67.12,
+      "startFrame": 1994,
+      "endFrame": 2014
+    },
+    {
+      "i": 162,
+      "word": "he",
+      "start": 67.48,
+      "end": 67.6,
+      "startFrame": 2024,
+      "endFrame": 2028
+    },
+    {
+      "i": 163,
+      "word": "doesn't",
+      "start": 67.6,
+      "end": 67.9,
+      "startFrame": 2028,
+      "endFrame": 2037
+    },
+    {
+      "i": 164,
+      "word": "check",
+      "start": 67.9,
+      "end": 68.1,
+      "startFrame": 2037,
+      "endFrame": 2043
+    },
+    {
+      "i": 165,
+      "word": "his",
+      "start": 68.1,
+      "end": 68.32,
+      "startFrame": 2043,
+      "endFrame": 2050
+    },
+    {
+      "i": 166,
+      "word": "phone.",
+      "start": 68.32,
+      "end": 68.62,
+      "startFrame": 2050,
+      "endFrame": 2059
+    },
+    {
+      "i": 167,
+      "word": "He",
+      "start": 69.58,
+      "end": 69.82,
+      "startFrame": 2087,
+      "endFrame": 2095
+    },
+    {
+      "i": 168,
+      "word": "doesn't",
+      "start": 69.82,
+      "end": 70.16,
+      "startFrame": 2095,
+      "endFrame": 2105
+    },
+    {
+      "i": 169,
+      "word": "go",
+      "start": 70.16,
+      "end": 70.3,
+      "startFrame": 2105,
+      "endFrame": 2109
+    },
+    {
+      "i": 170,
+      "word": "inside.",
+      "start": 70.3,
+      "end": 70.74,
+      "startFrame": 2109,
+      "endFrame": 2122
+    },
+    {
+      "i": 171,
+      "word": "Why?",
+      "start": 71.84,
+      "end": 72.18,
+      "startFrame": 2155,
+      "endFrame": 2165
+    },
+    {
+      "i": 172,
+      "word": "Because",
+      "start": 73.12,
+      "end": 73.54,
+      "startFrame": 2194,
+      "endFrame": 2206
+    },
+    {
+      "i": 173,
+      "word": "for",
+      "start": 73.54,
+      "end": 73.78,
+      "startFrame": 2206,
+      "endFrame": 2213
+    },
+    {
+      "i": 174,
+      "word": "10",
+      "start": 73.78,
+      "end": 74.06,
+      "startFrame": 2213,
+      "endFrame": 2222
+    },
+    {
+      "i": 175,
+      "word": "fleeting",
+      "start": 74.06,
+      "end": 74.4,
+      "startFrame": 2222,
+      "endFrame": 2232
+    },
+    {
+      "i": 176,
+      "word": "minutes,",
+      "start": 74.4,
+      "end": 74.76,
+      "startFrame": 2232,
+      "endFrame": 2243
+    },
+    {
+      "i": 177,
+      "word": "he",
+      "start": 75.2,
+      "end": 75.28,
+      "startFrame": 2256,
+      "endFrame": 2258
+    },
+    {
+      "i": 178,
+      "word": "doesn't",
+      "start": 75.28,
+      "end": 75.6,
+      "startFrame": 2258,
+      "endFrame": 2268
+    },
+    {
+      "i": 179,
+      "word": "have",
+      "start": 75.6,
+      "end": 75.74,
+      "startFrame": 2268,
+      "endFrame": 2272
+    },
+    {
+      "i": 180,
+      "word": "to",
+      "start": 75.74,
+      "end": 75.86,
+      "startFrame": 2272,
+      "endFrame": 2276
+    },
+    {
+      "i": 181,
+      "word": "be",
+      "start": 75.86,
+      "end": 76.0,
+      "startFrame": 2276,
+      "endFrame": 2280
+    },
+    {
+      "i": 182,
+      "word": "a",
+      "start": 76.0,
+      "end": 76.1,
+      "startFrame": 2280,
+      "endFrame": 2283
+    },
+    {
+      "i": 183,
+      "word": "protector.",
+      "start": 76.1,
+      "end": 76.4,
+      "startFrame": 2283,
+      "endFrame": 2292
+    },
+    {
+      "i": 184,
+      "word": "He",
+      "start": 77.42,
+      "end": 77.78,
+      "startFrame": 2323,
+      "endFrame": 2333
+    },
+    {
+      "i": 185,
+      "word": "doesn't",
+      "start": 77.78,
+      "end": 78.1,
+      "startFrame": 2333,
+      "endFrame": 2343
+    },
+    {
+      "i": 186,
+      "word": "have",
+      "start": 78.1,
+      "end": 78.24,
+      "startFrame": 2343,
+      "endFrame": 2347
+    },
+    {
+      "i": 187,
+      "word": "to",
+      "start": 78.24,
+      "end": 78.4,
+      "startFrame": 2347,
+      "endFrame": 2352
+    },
+    {
+      "i": 188,
+      "word": "fix",
+      "start": 78.4,
+      "end": 78.64,
+      "startFrame": 2352,
+      "endFrame": 2359
+    },
+    {
+      "i": 189,
+      "word": "anything.",
+      "start": 78.64,
+      "end": 79.0,
+      "startFrame": 2359,
+      "endFrame": 2370
+    },
+    {
+      "i": 190,
+      "word": "He",
+      "start": 79.92,
+      "end": 80.34,
+      "startFrame": 2398,
+      "endFrame": 2410
+    },
+    {
+      "i": 191,
+      "word": "doesn't",
+      "start": 80.34,
+      "end": 80.66,
+      "startFrame": 2410,
+      "endFrame": 2420
+    },
+    {
+      "i": 192,
+      "word": "have",
+      "start": 80.66,
+      "end": 80.82,
+      "startFrame": 2420,
+      "endFrame": 2425
+    },
+    {
+      "i": 193,
+      "word": "to",
+      "start": 80.82,
+      "end": 80.98,
+      "startFrame": 2425,
+      "endFrame": 2429
+    },
+    {
+      "i": 194,
+      "word": "be",
+      "start": 80.98,
+      "end": 81.1,
+      "startFrame": 2429,
+      "endFrame": 2433
+    },
+    {
+      "i": 195,
+      "word": "brave.",
+      "start": 81.1,
+      "end": 81.38,
+      "startFrame": 2433,
+      "endFrame": 2441
+    },
+    {
+      "i": 196,
+      "word": "For",
+      "start": 82.12,
+      "end": 82.76,
+      "startFrame": 2464,
+      "endFrame": 2483
+    },
+    {
+      "i": 197,
+      "word": "10",
+      "start": 82.76,
+      "end": 83.06,
+      "startFrame": 2483,
+      "endFrame": 2492
+    },
+    {
+      "i": 198,
+      "word": "minutes,",
+      "start": 83.06,
+      "end": 83.4,
+      "startFrame": 2492,
+      "endFrame": 2502
+    },
+    {
+      "i": 199,
+      "word": "he",
+      "start": 83.72,
+      "end": 83.84,
+      "startFrame": 2512,
+      "endFrame": 2515
+    },
+    {
+      "i": 200,
+      "word": "is",
+      "start": 83.84,
+      "end": 83.98,
+      "startFrame": 2515,
+      "endFrame": 2519
+    },
+    {
+      "i": 201,
+      "word": "just",
+      "start": 83.98,
+      "end": 84.2,
+      "startFrame": 2519,
+      "endFrame": 2526
+    },
+    {
+      "i": 202,
+      "word": "human.",
+      "start": 84.2,
+      "end": 84.54,
+      "startFrame": 2526,
+      "endFrame": 2536
+    },
+    {
+      "i": 203,
+      "word": "A",
+      "start": 85.56,
+      "end": 85.78,
+      "startFrame": 2567,
+      "endFrame": 2573
+    },
+    {
+      "i": 204,
+      "word": "gentle",
+      "start": 85.78,
+      "end": 86.1,
+      "startFrame": 2573,
+      "endFrame": 2583
+    },
+    {
+      "i": 205,
+      "word": "knock",
+      "start": 86.1,
+      "end": 86.48,
+      "startFrame": 2583,
+      "endFrame": 2594
+    },
+    {
+      "i": 206,
+      "word": "on",
+      "start": 86.48,
+      "end": 86.64,
+      "startFrame": 2594,
+      "endFrame": 2599
+    },
+    {
+      "i": 207,
+      "word": "the",
+      "start": 86.64,
+      "end": 86.76,
+      "startFrame": 2599,
+      "endFrame": 2603
+    },
+    {
+      "i": 208,
+      "word": "window",
+      "start": 86.76,
+      "end": 86.98,
+      "startFrame": 2603,
+      "endFrame": 2609
+    },
+    {
+      "i": 209,
+      "word": "breaks",
+      "start": 86.98,
+      "end": 87.4,
+      "startFrame": 2609,
+      "endFrame": 2622
+    },
+    {
+      "i": 210,
+      "word": "the",
+      "start": 87.4,
+      "end": 87.6,
+      "startFrame": 2622,
+      "endFrame": 2628
+    },
+    {
+      "i": 211,
+      "word": "silence.",
+      "start": 87.6,
+      "end": 87.96,
+      "startFrame": 2628,
+      "endFrame": 2639
+    },
+    {
+      "i": 212,
+      "word": "It's",
+      "start": 89.16,
+      "end": 89.38,
+      "startFrame": 2675,
+      "endFrame": 2681
+    },
+    {
+      "i": 213,
+      "word": "his",
+      "start": 89.38,
+      "end": 89.5,
+      "startFrame": 2681,
+      "endFrame": 2685
+    },
+    {
+      "i": 214,
+      "word": "brother,",
+      "start": 89.5,
+      "end": 89.78,
+      "startFrame": 2685,
+      "endFrame": 2693
+    },
+    {
+      "i": 215,
+      "word": "holding",
+      "start": 90.2,
+      "end": 90.44,
+      "startFrame": 2706,
+      "endFrame": 2713
+    },
+    {
+      "i": 216,
+      "word": "two",
+      "start": 90.44,
+      "end": 90.76,
+      "startFrame": 2713,
+      "endFrame": 2723
+    },
+    {
+      "i": 217,
+      "word": "cups",
+      "start": 90.76,
+      "end": 91.04,
+      "startFrame": 2723,
+      "endFrame": 2731
+    },
+    {
+      "i": 218,
+      "word": "of",
+      "start": 91.04,
+      "end": 91.26,
+      "startFrame": 2731,
+      "endFrame": 2738
+    },
+    {
+      "i": 219,
+      "word": "warm",
+      "start": 91.26,
+      "end": 91.54,
+      "startFrame": 2738,
+      "endFrame": 2746
+    },
+    {
+      "i": 220,
+      "word": "chai.",
+      "start": 91.54,
+      "end": 91.94,
+      "startFrame": 2746,
+      "endFrame": 2758
+    },
+    {
+      "i": 221,
+      "word": "No",
+      "start": 92.98,
+      "end": 93.22,
+      "startFrame": 2789,
+      "endFrame": 2797
+    },
+    {
+      "i": 222,
+      "word": "questions",
+      "start": 93.22,
+      "end": 93.62,
+      "startFrame": 2797,
+      "endFrame": 2809
+    },
+    {
+      "i": 223,
+      "word": "about",
+      "start": 93.62,
+      "end": 93.96,
+      "startFrame": 2809,
+      "endFrame": 2819
+    },
+    {
+      "i": 224,
+      "word": "work.",
+      "start": 93.96,
+      "end": 94.34,
+      "startFrame": 2819,
+      "endFrame": 2830
+    },
+    {
+      "i": 225,
+      "word": "No",
+      "start": 95.28,
+      "end": 95.7,
+      "startFrame": 2858,
+      "endFrame": 2871
+    },
+    {
+      "i": 226,
+      "word": "demands.",
+      "start": 95.7,
+      "end": 96.06,
+      "startFrame": 2871,
+      "endFrame": 2882
+    },
+    {
+      "i": 227,
+      "word": "No",
+      "start": 97.04,
+      "end": 97.62,
+      "startFrame": 2911,
+      "endFrame": 2929
+    },
+    {
+      "i": 228,
+      "word": "expectations.",
+      "start": 97.62,
+      "end": 98.14,
+      "startFrame": 2929,
+      "endFrame": 2944
+    },
+    {
+      "i": 229,
+      "word": "Just",
+      "start": 99.62,
+      "end": 99.88,
+      "startFrame": 2989,
+      "endFrame": 2996
+    },
+    {
+      "i": 230,
+      "word": "a",
+      "start": 99.88,
+      "end": 100.08,
+      "startFrame": 2996,
+      "endFrame": 3002
+    },
+    {
+      "i": 231,
+      "word": "warm",
+      "start": 100.08,
+      "end": 100.32,
+      "startFrame": 3002,
+      "endFrame": 3010
+    },
+    {
+      "i": 232,
+      "word": "smile,",
+      "start": 100.32,
+      "end": 100.8,
+      "startFrame": 3010,
+      "endFrame": 3024
+    },
+    {
+      "i": 233,
+      "word": "and",
+      "start": 101.18,
+      "end": 101.36,
+      "startFrame": 3035,
+      "endFrame": 3041
+    },
+    {
+      "i": 234,
+      "word": "four",
+      "start": 101.36,
+      "end": 101.62,
+      "startFrame": 3041,
+      "endFrame": 3049
+    },
+    {
+      "i": 235,
+      "word": "simple",
+      "start": 101.62,
+      "end": 101.94,
+      "startFrame": 3049,
+      "endFrame": 3058
+    },
+    {
+      "i": 236,
+      "word": "words,",
+      "start": 101.94,
+      "end": 102.32,
+      "startFrame": 3058,
+      "endFrame": 3070
+    },
+    {
+      "i": 237,
+      "word": "to",
+      "start": 102.82,
+      "end": 102.96,
+      "startFrame": 3085,
+      "endFrame": 3089
+    },
+    {
+      "i": 238,
+      "word": "thik",
+      "start": 102.96,
+      "end": 103.24,
+      "startFrame": 3089,
+      "endFrame": 3097
+    },
+    {
+      "i": 239,
+      "word": "hai",
+      "start": 103.24,
+      "end": 103.54,
+      "startFrame": 3097,
+      "endFrame": 3106
+    },
+    {
+      "i": 240,
+      "word": "na,",
+      "start": 103.54,
+      "end": 103.78,
+      "startFrame": 3106,
+      "endFrame": 3113
+    },
+    {
+      "i": 241,
+      "word": "bye.",
+      "start": 104.14,
+      "end": 104.32,
+      "startFrame": 3124,
+      "endFrame": 3130
+    },
+    {
+      "i": 242,
+      "word": "And",
+      "start": 105.28,
+      "end": 105.6,
+      "startFrame": 3158,
+      "endFrame": 3168
+    },
+    {
+      "i": 243,
+      "word": "right",
+      "start": 105.6,
+      "end": 105.8,
+      "startFrame": 3168,
+      "endFrame": 3174
+    },
+    {
+      "i": 244,
+      "word": "there,",
+      "start": 105.8,
+      "end": 106.12,
+      "startFrame": 3174,
+      "endFrame": 3184
+    },
+    {
+      "i": 245,
+      "word": "the",
+      "start": 106.42,
+      "end": 106.52,
+      "startFrame": 3193,
+      "endFrame": 3196
+    },
+    {
+      "i": 246,
+      "word": "invisible",
+      "start": 106.52,
+      "end": 106.88,
+      "startFrame": 3196,
+      "endFrame": 3206
+    },
+    {
+      "i": 247,
+      "word": "armor",
+      "start": 106.88,
+      "end": 107.28,
+      "startFrame": 3206,
+      "endFrame": 3218
+    },
+    {
+      "i": 248,
+      "word": "finally",
+      "start": 107.28,
+      "end": 107.76,
+      "startFrame": 3218,
+      "endFrame": 3233
+    },
+    {
+      "i": 249,
+      "word": "melts",
+      "start": 107.76,
+      "end": 108.08,
+      "startFrame": 3233,
+      "endFrame": 3242
+    },
+    {
+      "i": 250,
+      "word": "away.",
+      "start": 108.08,
+      "end": 108.48,
+      "startFrame": 3242,
+      "endFrame": 3254
+    },
+    {
+      "i": 251,
+      "word": "To",
+      "start": 109.1,
+      "end": 109.66,
+      "startFrame": 3273,
+      "endFrame": 3290
+    },
+    {
+      "i": 252,
+      "word": "every",
+      "start": 109.66,
+      "end": 109.92,
+      "startFrame": 3290,
+      "endFrame": 3298
+    },
+    {
+      "i": 253,
+      "word": "man",
+      "start": 109.92,
+      "end": 110.22,
+      "startFrame": 3298,
+      "endFrame": 3307
+    },
+    {
+      "i": 254,
+      "word": "who",
+      "start": 110.22,
+      "end": 110.46,
+      "startFrame": 3307,
+      "endFrame": 3314
+    },
+    {
+      "i": 255,
+      "word": "carries",
+      "start": 110.46,
+      "end": 110.82,
+      "startFrame": 3314,
+      "endFrame": 3325
+    },
+    {
+      "i": 256,
+      "word": "silent",
+      "start": 110.82,
+      "end": 111.24,
+      "startFrame": 3325,
+      "endFrame": 3337
+    },
+    {
+      "i": 257,
+      "word": "burdens",
+      "start": 111.24,
+      "end": 111.56,
+      "startFrame": 3337,
+      "endFrame": 3347
+    },
+    {
+      "i": 258,
+      "word": "without",
+      "start": 111.56,
+      "end": 111.96,
+      "startFrame": 3347,
+      "endFrame": 3359
+    },
+    {
+      "i": 259,
+      "word": "asking",
+      "start": 111.96,
+      "end": 112.44,
+      "startFrame": 3359,
+      "endFrame": 3373
+    },
+    {
+      "i": 260,
+      "word": "for",
+      "start": 112.44,
+      "end": 112.7,
+      "startFrame": 3373,
+      "endFrame": 3381
+    },
+    {
+      "i": 261,
+      "word": "applause.",
+      "start": 112.7,
+      "end": 113.1,
+      "startFrame": 3381,
+      "endFrame": 3393
+    },
+    {
+      "i": 262,
+      "word": "To",
+      "start": 113.92,
+      "end": 114.44,
+      "startFrame": 3418,
+      "endFrame": 3433
+    },
+    {
+      "i": 263,
+      "word": "every",
+      "start": 114.44,
+      "end": 114.72,
+      "startFrame": 3433,
+      "endFrame": 3442
+    },
+    {
+      "i": 264,
+      "word": "man",
+      "start": 114.72,
+      "end": 115.02,
+      "startFrame": 3442,
+      "endFrame": 3451
+    },
+    {
+      "i": 265,
+      "word": "who",
+      "start": 115.02,
+      "end": 115.22,
+      "startFrame": 3451,
+      "endFrame": 3457
+    },
+    {
+      "i": 266,
+      "word": "builds",
+      "start": 115.22,
+      "end": 115.48,
+      "startFrame": 3457,
+      "endFrame": 3464
+    },
+    {
+      "i": 267,
+      "word": "a",
+      "start": 115.48,
+      "end": 115.68,
+      "startFrame": 3464,
+      "endFrame": 3470
+    },
+    {
+      "i": 268,
+      "word": "shelter",
+      "start": 115.68,
+      "end": 115.96,
+      "startFrame": 3470,
+      "endFrame": 3479
+    },
+    {
+      "i": 269,
+      "word": "for",
+      "start": 115.96,
+      "end": 116.26,
+      "startFrame": 3479,
+      "endFrame": 3488
+    },
+    {
+      "i": 270,
+      "word": "others",
+      "start": 116.26,
+      "end": 116.6,
+      "startFrame": 3488,
+      "endFrame": 3498
+    },
+    {
+      "i": 271,
+      "word": "while",
+      "start": 116.6,
+      "end": 116.92,
+      "startFrame": 3498,
+      "endFrame": 3508
+    },
+    {
+      "i": 272,
+      "word": "standing",
+      "start": 116.92,
+      "end": 117.32,
+      "startFrame": 3508,
+      "endFrame": 3520
+    },
+    {
+      "i": 273,
+      "word": "in",
+      "start": 117.32,
+      "end": 117.5,
+      "startFrame": 3520,
+      "endFrame": 3525
+    },
+    {
+      "i": 274,
+      "word": "the",
+      "start": 117.5,
+      "end": 117.6,
+      "startFrame": 3525,
+      "endFrame": 3528
+    },
+    {
+      "i": 275,
+      "word": "storm.",
+      "start": 117.6,
+      "end": 117.92,
+      "startFrame": 3528,
+      "endFrame": 3538
+    },
+    {
+      "i": 276,
+      "word": "You",
+      "start": 119.02,
+      "end": 119.14,
+      "startFrame": 3571,
+      "endFrame": 3574
+    },
+    {
+      "i": 277,
+      "word": "don't",
+      "start": 119.14,
+      "end": 119.34,
+      "startFrame": 3574,
+      "endFrame": 3580
+    },
+    {
+      "i": 278,
+      "word": "have",
+      "start": 119.34,
+      "end": 119.46,
+      "startFrame": 3580,
+      "endFrame": 3584
+    },
+    {
+      "i": 279,
+      "word": "to",
+      "start": 119.46,
+      "end": 119.6,
+      "startFrame": 3584,
+      "endFrame": 3588
+    },
+    {
+      "i": 280,
+      "word": "carry",
+      "start": 119.6,
+      "end": 119.88,
+      "startFrame": 3588,
+      "endFrame": 3596
+    },
+    {
+      "i": 281,
+      "word": "the",
+      "start": 119.88,
+      "end": 120.06,
+      "startFrame": 3596,
+      "endFrame": 3602
+    },
+    {
+      "i": 282,
+      "word": "whole",
+      "start": 120.06,
+      "end": 120.34,
+      "startFrame": 3602,
+      "endFrame": 3610
+    },
+    {
+      "i": 283,
+      "word": "world",
+      "start": 120.34,
+      "end": 120.68,
+      "startFrame": 3610,
+      "endFrame": 3620
+    },
+    {
+      "i": 284,
+      "word": "alone.",
+      "start": 120.68,
+      "end": 121.0,
+      "startFrame": 3620,
+      "endFrame": 3630
+    },
+    {
+      "i": 285,
+      "word": "It's",
+      "start": 122.06,
+      "end": 122.36,
+      "startFrame": 3662,
+      "endFrame": 3671
+    },
+    {
+      "i": 286,
+      "word": "okay",
+      "start": 122.36,
+      "end": 122.6,
+      "startFrame": 3671,
+      "endFrame": 3678
+    },
+    {
+      "i": 287,
+      "word": "to",
+      "start": 122.6,
+      "end": 122.82,
+      "startFrame": 3678,
+      "endFrame": 3685
+    },
+    {
+      "i": 288,
+      "word": "feel.",
+      "start": 122.82,
+      "end": 123.1,
+      "startFrame": 3685,
+      "endFrame": 3693
+    },
+    {
+      "i": 289,
+      "word": "It's",
+      "start": 124.16,
+      "end": 124.46,
+      "startFrame": 3725,
+      "endFrame": 3734
+    },
+    {
+      "i": 290,
+      "word": "okay",
+      "start": 124.46,
+      "end": 124.74,
+      "startFrame": 3734,
+      "endFrame": 3742
+    },
+    {
+      "i": 291,
+      "word": "to",
+      "start": 124.74,
+      "end": 124.96,
+      "startFrame": 3742,
+      "endFrame": 3749
+    },
+    {
+      "i": 292,
+      "word": "rest.",
+      "start": 124.96,
+      "end": 125.3,
+      "startFrame": 3749,
+      "endFrame": 3759
+    },
+    {
+      "i": 293,
+      "word": "It's",
+      "start": 126.38,
+      "end": 126.64,
+      "startFrame": 3791,
+      "endFrame": 3799
+    },
+    {
+      "i": 294,
+      "word": "okay",
+      "start": 126.64,
+      "end": 126.9,
+      "startFrame": 3799,
+      "endFrame": 3807
+    },
+    {
+      "i": 295,
+      "word": "to",
+      "start": 126.9,
+      "end": 127.1,
+      "startFrame": 3807,
+      "endFrame": 3813
+    },
+    {
+      "i": 296,
+      "word": "ask",
+      "start": 127.1,
+      "end": 127.4,
+      "startFrame": 3813,
+      "endFrame": 3822
+    },
+    {
+      "i": 297,
+      "word": "for",
+      "start": 127.4,
+      "end": 127.58,
+      "startFrame": 3822,
+      "endFrame": 3827
+    },
+    {
+      "i": 298,
+      "word": "a",
+      "start": 127.58,
+      "end": 127.74,
+      "startFrame": 3827,
+      "endFrame": 3832
+    },
+    {
+      "i": 299,
+      "word": "hand.",
+      "start": 127.74,
+      "end": 128.0,
+      "startFrame": 3832,
+      "endFrame": 3840
+    },
+    {
+      "i": 300,
+      "word": "Today,",
+      "start": 129.02,
+      "end": 129.38,
+      "startFrame": 3871,
+      "endFrame": 3881
+    },
+    {
+      "i": 301,
+      "word": "we",
+      "start": 129.78,
+      "end": 129.94,
+      "startFrame": 3893,
+      "endFrame": 3898
+    },
+    {
+      "i": 302,
+      "word": "see",
+      "start": 129.94,
+      "end": 130.22,
+      "startFrame": 3898,
+      "endFrame": 3907
+    },
+    {
+      "i": 303,
+      "word": "you,",
+      "start": 130.22,
+      "end": 130.42,
+      "startFrame": 3907,
+      "endFrame": 3913
+    },
+    {
+      "i": 304,
+      "word": "we",
+      "start": 130.7,
+      "end": 130.8,
+      "startFrame": 3921,
+      "endFrame": 3924
+    },
+    {
+      "i": 305,
+      "word": "appreciate",
+      "start": 130.8,
+      "end": 131.22,
+      "startFrame": 3924,
+      "endFrame": 3937
+    },
+    {
+      "i": 306,
+      "word": "you,",
+      "start": 131.22,
+      "end": 131.64,
+      "startFrame": 3937,
+      "endFrame": 3949
+    },
+    {
+      "i": 307,
+      "word": "and",
+      "start": 131.92,
+      "end": 132.02,
+      "startFrame": 3958,
+      "endFrame": 3961
+    },
+    {
+      "i": 308,
+      "word": "we",
+      "start": 132.02,
+      "end": 132.18,
+      "startFrame": 3961,
+      "endFrame": 3965
+    },
+    {
+      "i": 309,
+      "word": "honor",
+      "start": 132.18,
+      "end": 132.42,
+      "startFrame": 3965,
+      "endFrame": 3973
+    },
+    {
+      "i": 310,
+      "word": "you.",
+      "start": 132.42,
+      "end": 132.72,
+      "startFrame": 3973,
+      "endFrame": 3982
+    },
+    {
+      "i": 311,
+      "word": "Happy",
+      "start": 133.74,
+      "end": 134.0,
+      "startFrame": 4012,
+      "endFrame": 4020
+    },
+    {
+      "i": 312,
+      "word": "International",
+      "start": 134.0,
+      "end": 134.56,
+      "startFrame": 4020,
+      "endFrame": 4037
+    },
+    {
+      "i": 313,
+      "word": "Men's",
+      "start": 134.56,
+      "end": 135.14,
+      "startFrame": 4037,
+      "endFrame": 4054
+    },
+    {
+      "i": 314,
+      "word": "Day.",
+      "start": 135.14,
+      "end": 135.32,
+      "startFrame": 4054,
+      "endFrame": 4060
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.36,
+      "text": "Every single morning, before the city even wakes up, millions of men quietly put on an"
+    },
+    {
+      "start": 5.36,
+      "end": 6.52,
+      "text": "invisible suit of armor."
+    },
+    {
+      "start": 7.46,
+      "end": 12.0,
+      "text": "They step out into the rush, a son, a brother, a father, a provider."
+    },
+    {
+      "start": 13.12,
+      "end": 16.06,
+      "text": "Their shoulders might be heavy, but their backs stay straight."
+    },
+    {
+      "start": 16.88,
+      "end": 21.74,
+      "text": "Because from the time they are little boys, they are taught one unspoken rule, be the"
+    },
+    {
+      "start": 21.74,
+      "end": 22.92,
+      "text": "pillar that never bends."
+    },
+    {
+      "start": 23.98,
+      "end": 26.08,
+      "text": "At the desk, deadlines stack up."
+    },
+    {
+      "start": 27.04,
+      "end": 27.76,
+      "text": "Rent is due."
+    },
+    {
+      "start": 28.5,
+      "end": 31.38,
+      "text": "Medical bills arrive in quiet envelopes."
+    },
+    {
+      "start": 32.2,
+      "end": 35.72,
+      "text": "A message pings on his phone, beta, did you manage the payment?"
+    },
+    {
+      "start": 36.82,
+      "end": 41.46,
+      "text": "Without hesitating for even a second, his fingers type back, don't worry papa,"
+    },
+    {
+      "start": 41.9,
+      "end": 42.86,
+      "text": "saps sorted high."
+    },
+    {
+      "start": 43.76,
+      "end": 47.32,
+      "text": "Even when his own bank account is scraping zero, he smiles."
+    },
+    {
+      "start": 48.46,
+      "end": 52.96,
+      "text": "Men learn to swallow fear until holding everything together feels like their only job."
+    },
+    {
+      "start": 53.8,
+      "end": 54.98,
+      "text": "And then comes midnight."
+    },
+    {
+      "start": 55.72,
+      "end": 57.6,
+      "text": "The commute finally ends."
+    },
+    {
+      "start": 58.62,
+      "end": 62.32,
+      "text": "He pulls into the driveway, turns off the engine, and just sits."
+    },
+    {
+      "start": 63.38,
+      "end": 68.62,
+      "text": "In that dark, quiet car, under the rainy amber streetlights, he doesn't check his phone."
+    },
+    {
+      "start": 69.58,
+      "end": 70.74,
+      "text": "He doesn't go inside."
+    },
+    {
+      "start": 71.84,
+      "end": 72.18,
+      "text": "Why?"
+    },
+    {
+      "start": 73.12,
+      "end": 76.4,
+      "text": "Because for 10 fleeting minutes, he doesn't have to be a protector."
+    },
+    {
+      "start": 77.42,
+      "end": 79.0,
+      "text": "He doesn't have to fix anything."
+    },
+    {
+      "start": 79.92,
+      "end": 81.38,
+      "text": "He doesn't have to be brave."
+    },
+    {
+      "start": 82.12,
+      "end": 84.54,
+      "text": "For 10 minutes, he is just human."
+    },
+    {
+      "start": 85.56,
+      "end": 87.96,
+      "text": "A gentle knock on the window breaks the silence."
+    },
+    {
+      "start": 89.16,
+      "end": 91.94,
+      "text": "It's his brother, holding two cups of warm chai."
+    },
+    {
+      "start": 92.98,
+      "end": 94.34,
+      "text": "No questions about work."
+    },
+    {
+      "start": 95.28,
+      "end": 96.06,
+      "text": "No demands."
+    },
+    {
+      "start": 97.04,
+      "end": 98.14,
+      "text": "No expectations."
+    },
+    {
+      "start": 99.62,
+      "end": 104.32,
+      "text": "Just a warm smile, and four simple words, to thik hai na, bye."
+    },
+    {
+      "start": 105.28,
+      "end": 108.48,
+      "text": "And right there, the invisible armor finally melts away."
+    },
+    {
+      "start": 109.1,
+      "end": 113.1,
+      "text": "To every man who carries silent burdens without asking for applause."
+    },
+    {
+      "start": 113.92,
+      "end": 117.92,
+      "text": "To every man who builds a shelter for others while standing in the storm."
+    },
+    {
+      "start": 119.02,
+      "end": 121.0,
+      "text": "You don't have to carry the whole world alone."
+    },
+    {
+      "start": 122.06,
+      "end": 123.1,
+      "text": "It's okay to feel."
+    },
+    {
+      "start": 124.16,
+      "end": 125.3,
+      "text": "It's okay to rest."
+    },
+    {
+      "start": 126.38,
+      "end": 128.0,
+      "text": "It's okay to ask for a hand."
+    },
+    {
+      "start": 129.02,
+      "end": 132.72,
+      "text": "Today, we see you, we appreciate you, and we honor you."
+    },
+    {
+      "start": 133.74,
+      "end": 135.32,
+      "text": "Happy International Men's Day."
+    }
+  ]
+}

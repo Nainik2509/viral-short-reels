@@ -1,0 +1,1239 @@
+{
+  "audio": "voice/mens_day.mp3",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 65.544,
+  "model": "small",
+  "fps": 30,
+  "text": "Every single night millions of men sit in a parked car for 10 quiet minutes. They're not listening to music. They're not on calls. So what are they doing? Between the boss screaming at 11am, rent notices at 3pm and family expectations at 8pm, a man becomes an emotional filter. He can't tell his parents, they'll panic. He can't tell his partner, she's already stressed. His only reply. Subsorted hair, bro. Globally, men are 3.5 times less likely to ask for help, carrying silent pressure until it breaks them. So why does he park in the driveway and just freeze? You see, that quiet car is the only place on earth where he doesn't have to be a protector, a provider or strong. For 10 minutes, he's just human. This mains day, don't ask him to fix something. Just ask him, bhai, to thik hai na.",
+  "words": [
+    {
+      "i": 0,
+      "word": "Every",
+      "start": 0.0,
+      "end": 0.4,
+      "startFrame": 0,
+      "endFrame": 12
+    },
+    {
+      "i": 1,
+      "word": "single",
+      "start": 0.4,
+      "end": 0.72,
+      "startFrame": 12,
+      "endFrame": 22
+    },
+    {
+      "i": 2,
+      "word": "night",
+      "start": 0.72,
+      "end": 1.14,
+      "startFrame": 22,
+      "endFrame": 34
+    },
+    {
+      "i": 3,
+      "word": "millions",
+      "start": 1.14,
+      "end": 1.66,
+      "startFrame": 34,
+      "endFrame": 50
+    },
+    {
+      "i": 4,
+      "word": "of",
+      "start": 1.66,
+      "end": 2.02,
+      "startFrame": 50,
+      "endFrame": 61
+    },
+    {
+      "i": 5,
+      "word": "men",
+      "start": 2.02,
+      "end": 2.3,
+      "startFrame": 61,
+      "endFrame": 69
+    },
+    {
+      "i": 6,
+      "word": "sit",
+      "start": 2.3,
+      "end": 2.56,
+      "startFrame": 69,
+      "endFrame": 77
+    },
+    {
+      "i": 7,
+      "word": "in",
+      "start": 2.56,
+      "end": 2.84,
+      "startFrame": 77,
+      "endFrame": 85
+    },
+    {
+      "i": 8,
+      "word": "a",
+      "start": 2.84,
+      "end": 2.98,
+      "startFrame": 85,
+      "endFrame": 89
+    },
+    {
+      "i": 9,
+      "word": "parked",
+      "start": 2.98,
+      "end": 3.18,
+      "startFrame": 89,
+      "endFrame": 95
+    },
+    {
+      "i": 10,
+      "word": "car",
+      "start": 3.18,
+      "end": 3.52,
+      "startFrame": 95,
+      "endFrame": 106
+    },
+    {
+      "i": 11,
+      "word": "for",
+      "start": 3.52,
+      "end": 3.78,
+      "startFrame": 106,
+      "endFrame": 113
+    },
+    {
+      "i": 12,
+      "word": "10",
+      "start": 3.78,
+      "end": 4.1,
+      "startFrame": 113,
+      "endFrame": 123
+    },
+    {
+      "i": 13,
+      "word": "quiet",
+      "start": 4.1,
+      "end": 4.32,
+      "startFrame": 123,
+      "endFrame": 130
+    },
+    {
+      "i": 14,
+      "word": "minutes.",
+      "start": 4.32,
+      "end": 4.8,
+      "startFrame": 130,
+      "endFrame": 144
+    },
+    {
+      "i": 15,
+      "word": "They're",
+      "start": 5.44,
+      "end": 5.98,
+      "startFrame": 163,
+      "endFrame": 179
+    },
+    {
+      "i": 16,
+      "word": "not",
+      "start": 5.98,
+      "end": 6.18,
+      "startFrame": 179,
+      "endFrame": 185
+    },
+    {
+      "i": 17,
+      "word": "listening",
+      "start": 6.18,
+      "end": 6.64,
+      "startFrame": 185,
+      "endFrame": 199
+    },
+    {
+      "i": 18,
+      "word": "to",
+      "start": 6.64,
+      "end": 6.88,
+      "startFrame": 199,
+      "endFrame": 206
+    },
+    {
+      "i": 19,
+      "word": "music.",
+      "start": 6.88,
+      "end": 7.18,
+      "startFrame": 206,
+      "endFrame": 215
+    },
+    {
+      "i": 20,
+      "word": "They're",
+      "start": 8.0,
+      "end": 8.48,
+      "startFrame": 240,
+      "endFrame": 254
+    },
+    {
+      "i": 21,
+      "word": "not",
+      "start": 8.48,
+      "end": 8.7,
+      "startFrame": 254,
+      "endFrame": 261
+    },
+    {
+      "i": 22,
+      "word": "on",
+      "start": 8.7,
+      "end": 9.0,
+      "startFrame": 261,
+      "endFrame": 270
+    },
+    {
+      "i": 23,
+      "word": "calls.",
+      "start": 9.0,
+      "end": 9.32,
+      "startFrame": 270,
+      "endFrame": 280
+    },
+    {
+      "i": 24,
+      "word": "So",
+      "start": 10.2,
+      "end": 10.5,
+      "startFrame": 306,
+      "endFrame": 315
+    },
+    {
+      "i": 25,
+      "word": "what",
+      "start": 10.5,
+      "end": 10.74,
+      "startFrame": 315,
+      "endFrame": 322
+    },
+    {
+      "i": 26,
+      "word": "are",
+      "start": 10.74,
+      "end": 10.98,
+      "startFrame": 322,
+      "endFrame": 329
+    },
+    {
+      "i": 27,
+      "word": "they",
+      "start": 10.98,
+      "end": 11.16,
+      "startFrame": 329,
+      "endFrame": 335
+    },
+    {
+      "i": 28,
+      "word": "doing?",
+      "start": 11.16,
+      "end": 11.4,
+      "startFrame": 335,
+      "endFrame": 342
+    },
+    {
+      "i": 29,
+      "word": "Between",
+      "start": 12.28,
+      "end": 12.58,
+      "startFrame": 368,
+      "endFrame": 377
+    },
+    {
+      "i": 30,
+      "word": "the",
+      "start": 12.58,
+      "end": 12.86,
+      "startFrame": 377,
+      "endFrame": 386
+    },
+    {
+      "i": 31,
+      "word": "boss",
+      "start": 12.86,
+      "end": 13.1,
+      "startFrame": 386,
+      "endFrame": 393
+    },
+    {
+      "i": 32,
+      "word": "screaming",
+      "start": 13.1,
+      "end": 13.56,
+      "startFrame": 393,
+      "endFrame": 407
+    },
+    {
+      "i": 33,
+      "word": "at",
+      "start": 13.56,
+      "end": 13.98,
+      "startFrame": 407,
+      "endFrame": 419
+    },
+    {
+      "i": 34,
+      "word": "11am,",
+      "start": 13.98,
+      "end": 14.8,
+      "startFrame": 419,
+      "endFrame": 444
+    },
+    {
+      "i": 35,
+      "word": "rent",
+      "start": 15.32,
+      "end": 15.5,
+      "startFrame": 460,
+      "endFrame": 465
+    },
+    {
+      "i": 36,
+      "word": "notices",
+      "start": 15.5,
+      "end": 16.02,
+      "startFrame": 465,
+      "endFrame": 481
+    },
+    {
+      "i": 37,
+      "word": "at",
+      "start": 16.02,
+      "end": 16.42,
+      "startFrame": 481,
+      "endFrame": 493
+    },
+    {
+      "i": 38,
+      "word": "3pm",
+      "start": 16.42,
+      "end": 17.08,
+      "startFrame": 493,
+      "endFrame": 512
+    },
+    {
+      "i": 39,
+      "word": "and",
+      "start": 17.08,
+      "end": 17.74,
+      "startFrame": 512,
+      "endFrame": 532
+    },
+    {
+      "i": 40,
+      "word": "family",
+      "start": 17.74,
+      "end": 18.12,
+      "startFrame": 532,
+      "endFrame": 544
+    },
+    {
+      "i": 41,
+      "word": "expectations",
+      "start": 18.12,
+      "end": 18.88,
+      "startFrame": 544,
+      "endFrame": 566
+    },
+    {
+      "i": 42,
+      "word": "at",
+      "start": 18.88,
+      "end": 19.4,
+      "startFrame": 566,
+      "endFrame": 582
+    },
+    {
+      "i": 43,
+      "word": "8pm,",
+      "start": 19.4,
+      "end": 20.14,
+      "startFrame": 582,
+      "endFrame": 604
+    },
+    {
+      "i": 44,
+      "word": "a",
+      "start": 20.44,
+      "end": 20.54,
+      "startFrame": 613,
+      "endFrame": 616
+    },
+    {
+      "i": 45,
+      "word": "man",
+      "start": 20.54,
+      "end": 20.72,
+      "startFrame": 616,
+      "endFrame": 622
+    },
+    {
+      "i": 46,
+      "word": "becomes",
+      "start": 20.72,
+      "end": 21.1,
+      "startFrame": 622,
+      "endFrame": 633
+    },
+    {
+      "i": 47,
+      "word": "an",
+      "start": 21.1,
+      "end": 21.52,
+      "startFrame": 633,
+      "endFrame": 646
+    },
+    {
+      "i": 48,
+      "word": "emotional",
+      "start": 21.52,
+      "end": 21.96,
+      "startFrame": 646,
+      "endFrame": 659
+    },
+    {
+      "i": 49,
+      "word": "filter.",
+      "start": 21.96,
+      "end": 22.38,
+      "startFrame": 659,
+      "endFrame": 671
+    },
+    {
+      "i": 50,
+      "word": "He",
+      "start": 23.3,
+      "end": 23.5,
+      "startFrame": 699,
+      "endFrame": 705
+    },
+    {
+      "i": 51,
+      "word": "can't",
+      "start": 23.5,
+      "end": 23.88,
+      "startFrame": 705,
+      "endFrame": 716
+    },
+    {
+      "i": 52,
+      "word": "tell",
+      "start": 23.88,
+      "end": 24.08,
+      "startFrame": 716,
+      "endFrame": 722
+    },
+    {
+      "i": 53,
+      "word": "his",
+      "start": 24.08,
+      "end": 24.32,
+      "startFrame": 722,
+      "endFrame": 730
+    },
+    {
+      "i": 54,
+      "word": "parents,",
+      "start": 24.32,
+      "end": 24.68,
+      "startFrame": 730,
+      "endFrame": 740
+    },
+    {
+      "i": 55,
+      "word": "they'll",
+      "start": 25.14,
+      "end": 25.34,
+      "startFrame": 754,
+      "endFrame": 760
+    },
+    {
+      "i": 56,
+      "word": "panic.",
+      "start": 25.34,
+      "end": 25.6,
+      "startFrame": 760,
+      "endFrame": 768
+    },
+    {
+      "i": 57,
+      "word": "He",
+      "start": 26.42,
+      "end": 26.74,
+      "startFrame": 793,
+      "endFrame": 802
+    },
+    {
+      "i": 58,
+      "word": "can't",
+      "start": 26.74,
+      "end": 27.12,
+      "startFrame": 802,
+      "endFrame": 814
+    },
+    {
+      "i": 59,
+      "word": "tell",
+      "start": 27.12,
+      "end": 27.36,
+      "startFrame": 814,
+      "endFrame": 821
+    },
+    {
+      "i": 60,
+      "word": "his",
+      "start": 27.36,
+      "end": 27.6,
+      "startFrame": 821,
+      "endFrame": 828
+    },
+    {
+      "i": 61,
+      "word": "partner,",
+      "start": 27.6,
+      "end": 28.06,
+      "startFrame": 828,
+      "endFrame": 842
+    },
+    {
+      "i": 62,
+      "word": "she's",
+      "start": 28.42,
+      "end": 28.8,
+      "startFrame": 853,
+      "endFrame": 864
+    },
+    {
+      "i": 63,
+      "word": "already",
+      "start": 28.8,
+      "end": 29.22,
+      "startFrame": 864,
+      "endFrame": 877
+    },
+    {
+      "i": 64,
+      "word": "stressed.",
+      "start": 29.22,
+      "end": 29.6,
+      "startFrame": 877,
+      "endFrame": 888
+    },
+    {
+      "i": 65,
+      "word": "His",
+      "start": 30.5,
+      "end": 30.7,
+      "startFrame": 915,
+      "endFrame": 921
+    },
+    {
+      "i": 66,
+      "word": "only",
+      "start": 30.7,
+      "end": 31.08,
+      "startFrame": 921,
+      "endFrame": 932
+    },
+    {
+      "i": 67,
+      "word": "reply.",
+      "start": 31.08,
+      "end": 31.5,
+      "startFrame": 932,
+      "endFrame": 945
+    },
+    {
+      "i": 68,
+      "word": "Subsorted",
+      "start": 32.48,
+      "end": 33.04,
+      "startFrame": 974,
+      "endFrame": 991
+    },
+    {
+      "i": 69,
+      "word": "hair,",
+      "start": 33.04,
+      "end": 33.36,
+      "startFrame": 991,
+      "endFrame": 1001
+    },
+    {
+      "i": 70,
+      "word": "bro.",
+      "start": 33.58,
+      "end": 33.7,
+      "startFrame": 1007,
+      "endFrame": 1011
+    },
+    {
+      "i": 71,
+      "word": "Globally,",
+      "start": 34.58,
+      "end": 35.08,
+      "startFrame": 1037,
+      "endFrame": 1052
+    },
+    {
+      "i": 72,
+      "word": "men",
+      "start": 35.5,
+      "end": 35.66,
+      "startFrame": 1065,
+      "endFrame": 1070
+    },
+    {
+      "i": 73,
+      "word": "are",
+      "start": 35.66,
+      "end": 35.98,
+      "startFrame": 1070,
+      "endFrame": 1079
+    },
+    {
+      "i": 74,
+      "word": "3",
+      "start": 35.98,
+      "end": 36.3,
+      "startFrame": 1079,
+      "endFrame": 1089
+    },
+    {
+      "i": 75,
+      "word": ".5",
+      "start": 36.3,
+      "end": 36.88,
+      "startFrame": 1089,
+      "endFrame": 1106
+    },
+    {
+      "i": 76,
+      "word": "times",
+      "start": 36.88,
+      "end": 37.22,
+      "startFrame": 1106,
+      "endFrame": 1117
+    },
+    {
+      "i": 77,
+      "word": "less",
+      "start": 37.22,
+      "end": 37.62,
+      "startFrame": 1117,
+      "endFrame": 1129
+    },
+    {
+      "i": 78,
+      "word": "likely",
+      "start": 37.62,
+      "end": 38.04,
+      "startFrame": 1129,
+      "endFrame": 1141
+    },
+    {
+      "i": 79,
+      "word": "to",
+      "start": 38.04,
+      "end": 38.34,
+      "startFrame": 1141,
+      "endFrame": 1150
+    },
+    {
+      "i": 80,
+      "word": "ask",
+      "start": 38.34,
+      "end": 38.64,
+      "startFrame": 1150,
+      "endFrame": 1159
+    },
+    {
+      "i": 81,
+      "word": "for",
+      "start": 38.64,
+      "end": 38.9,
+      "startFrame": 1159,
+      "endFrame": 1167
+    },
+    {
+      "i": 82,
+      "word": "help,",
+      "start": 38.9,
+      "end": 39.3,
+      "startFrame": 1167,
+      "endFrame": 1179
+    },
+    {
+      "i": 83,
+      "word": "carrying",
+      "start": 39.64,
+      "end": 39.94,
+      "startFrame": 1189,
+      "endFrame": 1198
+    },
+    {
+      "i": 84,
+      "word": "silent",
+      "start": 39.94,
+      "end": 40.36,
+      "startFrame": 1198,
+      "endFrame": 1211
+    },
+    {
+      "i": 85,
+      "word": "pressure",
+      "start": 40.36,
+      "end": 40.8,
+      "startFrame": 1211,
+      "endFrame": 1224
+    },
+    {
+      "i": 86,
+      "word": "until",
+      "start": 40.8,
+      "end": 41.22,
+      "startFrame": 1224,
+      "endFrame": 1237
+    },
+    {
+      "i": 87,
+      "word": "it",
+      "start": 41.22,
+      "end": 41.5,
+      "startFrame": 1237,
+      "endFrame": 1245
+    },
+    {
+      "i": 88,
+      "word": "breaks",
+      "start": 41.5,
+      "end": 41.8,
+      "startFrame": 1245,
+      "endFrame": 1254
+    },
+    {
+      "i": 89,
+      "word": "them.",
+      "start": 41.8,
+      "end": 42.08,
+      "startFrame": 1254,
+      "endFrame": 1262
+    },
+    {
+      "i": 90,
+      "word": "So",
+      "start": 42.92,
+      "end": 43.18,
+      "startFrame": 1288,
+      "endFrame": 1295
+    },
+    {
+      "i": 91,
+      "word": "why",
+      "start": 43.18,
+      "end": 43.46,
+      "startFrame": 1295,
+      "endFrame": 1304
+    },
+    {
+      "i": 92,
+      "word": "does",
+      "start": 43.46,
+      "end": 43.66,
+      "startFrame": 1304,
+      "endFrame": 1310
+    },
+    {
+      "i": 93,
+      "word": "he",
+      "start": 43.66,
+      "end": 43.88,
+      "startFrame": 1310,
+      "endFrame": 1316
+    },
+    {
+      "i": 94,
+      "word": "park",
+      "start": 43.88,
+      "end": 44.16,
+      "startFrame": 1316,
+      "endFrame": 1325
+    },
+    {
+      "i": 95,
+      "word": "in",
+      "start": 44.16,
+      "end": 44.42,
+      "startFrame": 1325,
+      "endFrame": 1333
+    },
+    {
+      "i": 96,
+      "word": "the",
+      "start": 44.42,
+      "end": 44.52,
+      "startFrame": 1333,
+      "endFrame": 1336
+    },
+    {
+      "i": 97,
+      "word": "driveway",
+      "start": 44.52,
+      "end": 44.86,
+      "startFrame": 1336,
+      "endFrame": 1346
+    },
+    {
+      "i": 98,
+      "word": "and",
+      "start": 44.86,
+      "end": 45.34,
+      "startFrame": 1346,
+      "endFrame": 1360
+    },
+    {
+      "i": 99,
+      "word": "just",
+      "start": 45.34,
+      "end": 45.62,
+      "startFrame": 1360,
+      "endFrame": 1369
+    },
+    {
+      "i": 100,
+      "word": "freeze?",
+      "start": 45.62,
+      "end": 45.92,
+      "startFrame": 1369,
+      "endFrame": 1378
+    },
+    {
+      "i": 101,
+      "word": "You",
+      "start": 46.76,
+      "end": 47.06,
+      "startFrame": 1403,
+      "endFrame": 1412
+    },
+    {
+      "i": 102,
+      "word": "see,",
+      "start": 47.06,
+      "end": 47.3,
+      "startFrame": 1412,
+      "endFrame": 1419
+    },
+    {
+      "i": 103,
+      "word": "that",
+      "start": 47.8,
+      "end": 47.9,
+      "startFrame": 1434,
+      "endFrame": 1437
+    },
+    {
+      "i": 104,
+      "word": "quiet",
+      "start": 47.9,
+      "end": 48.18,
+      "startFrame": 1437,
+      "endFrame": 1445
+    },
+    {
+      "i": 105,
+      "word": "car",
+      "start": 48.18,
+      "end": 48.52,
+      "startFrame": 1445,
+      "endFrame": 1456
+    },
+    {
+      "i": 106,
+      "word": "is",
+      "start": 48.52,
+      "end": 48.78,
+      "startFrame": 1456,
+      "endFrame": 1463
+    },
+    {
+      "i": 107,
+      "word": "the",
+      "start": 48.78,
+      "end": 48.92,
+      "startFrame": 1463,
+      "endFrame": 1468
+    },
+    {
+      "i": 108,
+      "word": "only",
+      "start": 48.92,
+      "end": 49.26,
+      "startFrame": 1468,
+      "endFrame": 1478
+    },
+    {
+      "i": 109,
+      "word": "place",
+      "start": 49.26,
+      "end": 49.54,
+      "startFrame": 1478,
+      "endFrame": 1486
+    },
+    {
+      "i": 110,
+      "word": "on",
+      "start": 49.54,
+      "end": 49.94,
+      "startFrame": 1486,
+      "endFrame": 1498
+    },
+    {
+      "i": 111,
+      "word": "earth",
+      "start": 49.94,
+      "end": 50.32,
+      "startFrame": 1498,
+      "endFrame": 1510
+    },
+    {
+      "i": 112,
+      "word": "where",
+      "start": 50.32,
+      "end": 50.66,
+      "startFrame": 1510,
+      "endFrame": 1520
+    },
+    {
+      "i": 113,
+      "word": "he",
+      "start": 50.66,
+      "end": 50.94,
+      "startFrame": 1520,
+      "endFrame": 1528
+    },
+    {
+      "i": 114,
+      "word": "doesn't",
+      "start": 50.94,
+      "end": 51.34,
+      "startFrame": 1528,
+      "endFrame": 1540
+    },
+    {
+      "i": 115,
+      "word": "have",
+      "start": 51.34,
+      "end": 51.54,
+      "startFrame": 1540,
+      "endFrame": 1546
+    },
+    {
+      "i": 116,
+      "word": "to",
+      "start": 51.54,
+      "end": 51.72,
+      "startFrame": 1546,
+      "endFrame": 1552
+    },
+    {
+      "i": 117,
+      "word": "be",
+      "start": 51.72,
+      "end": 51.9,
+      "startFrame": 1552,
+      "endFrame": 1557
+    },
+    {
+      "i": 118,
+      "word": "a",
+      "start": 51.9,
+      "end": 52.06,
+      "startFrame": 1557,
+      "endFrame": 1562
+    },
+    {
+      "i": 119,
+      "word": "protector,",
+      "start": 52.06,
+      "end": 52.46,
+      "startFrame": 1562,
+      "endFrame": 1574
+    },
+    {
+      "i": 120,
+      "word": "a",
+      "start": 52.88,
+      "end": 52.94,
+      "startFrame": 1586,
+      "endFrame": 1588
+    },
+    {
+      "i": 121,
+      "word": "provider",
+      "start": 52.94,
+      "end": 53.32,
+      "startFrame": 1588,
+      "endFrame": 1600
+    },
+    {
+      "i": 122,
+      "word": "or",
+      "start": 53.32,
+      "end": 53.86,
+      "startFrame": 1600,
+      "endFrame": 1616
+    },
+    {
+      "i": 123,
+      "word": "strong.",
+      "start": 53.86,
+      "end": 54.2,
+      "startFrame": 1616,
+      "endFrame": 1626
+    },
+    {
+      "i": 124,
+      "word": "For",
+      "start": 55.08,
+      "end": 55.4,
+      "startFrame": 1652,
+      "endFrame": 1662
+    },
+    {
+      "i": 125,
+      "word": "10",
+      "start": 55.4,
+      "end": 55.68,
+      "startFrame": 1662,
+      "endFrame": 1670
+    },
+    {
+      "i": 126,
+      "word": "minutes,",
+      "start": 55.68,
+      "end": 56.06,
+      "startFrame": 1670,
+      "endFrame": 1682
+    },
+    {
+      "i": 127,
+      "word": "he's",
+      "start": 56.4,
+      "end": 56.68,
+      "startFrame": 1692,
+      "endFrame": 1700
+    },
+    {
+      "i": 128,
+      "word": "just",
+      "start": 56.68,
+      "end": 56.98,
+      "startFrame": 1700,
+      "endFrame": 1709
+    },
+    {
+      "i": 129,
+      "word": "human.",
+      "start": 56.98,
+      "end": 57.38,
+      "startFrame": 1709,
+      "endFrame": 1721
+    },
+    {
+      "i": 130,
+      "word": "This",
+      "start": 58.22,
+      "end": 58.54,
+      "startFrame": 1747,
+      "endFrame": 1756
+    },
+    {
+      "i": 131,
+      "word": "mains",
+      "start": 58.54,
+      "end": 58.84,
+      "startFrame": 1756,
+      "endFrame": 1765
+    },
+    {
+      "i": 132,
+      "word": "day,",
+      "start": 58.84,
+      "end": 59.2,
+      "startFrame": 1765,
+      "endFrame": 1776
+    },
+    {
+      "i": 133,
+      "word": "don't",
+      "start": 59.56,
+      "end": 59.92,
+      "startFrame": 1787,
+      "endFrame": 1798
+    },
+    {
+      "i": 134,
+      "word": "ask",
+      "start": 59.92,
+      "end": 60.16,
+      "startFrame": 1798,
+      "endFrame": 1805
+    },
+    {
+      "i": 135,
+      "word": "him",
+      "start": 60.16,
+      "end": 60.4,
+      "startFrame": 1805,
+      "endFrame": 1812
+    },
+    {
+      "i": 136,
+      "word": "to",
+      "start": 60.4,
+      "end": 60.58,
+      "startFrame": 1812,
+      "endFrame": 1817
+    },
+    {
+      "i": 137,
+      "word": "fix",
+      "start": 60.58,
+      "end": 60.8,
+      "startFrame": 1817,
+      "endFrame": 1824
+    },
+    {
+      "i": 138,
+      "word": "something.",
+      "start": 60.8,
+      "end": 61.3,
+      "startFrame": 1824,
+      "endFrame": 1839
+    },
+    {
+      "i": 139,
+      "word": "Just",
+      "start": 62.2,
+      "end": 62.52,
+      "startFrame": 1866,
+      "endFrame": 1876
+    },
+    {
+      "i": 140,
+      "word": "ask",
+      "start": 62.52,
+      "end": 62.86,
+      "startFrame": 1876,
+      "endFrame": 1886
+    },
+    {
+      "i": 141,
+      "word": "him,",
+      "start": 62.86,
+      "end": 63.12,
+      "startFrame": 1886,
+      "endFrame": 1894
+    },
+    {
+      "i": 142,
+      "word": "bhai,",
+      "start": 63.34,
+      "end": 63.64,
+      "startFrame": 1900,
+      "endFrame": 1909
+    },
+    {
+      "i": 143,
+      "word": "to",
+      "start": 63.9,
+      "end": 64.0,
+      "startFrame": 1917,
+      "endFrame": 1920
+    },
+    {
+      "i": 144,
+      "word": "thik",
+      "start": 64.0,
+      "end": 64.32,
+      "startFrame": 1920,
+      "endFrame": 1930
+    },
+    {
+      "i": 145,
+      "word": "hai",
+      "start": 64.32,
+      "end": 64.54,
+      "startFrame": 1930,
+      "endFrame": 1936
+    },
+    {
+      "i": 146,
+      "word": "na.",
+      "start": 64.54,
+      "end": 64.68,
+      "startFrame": 1936,
+      "endFrame": 1940
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.8,
+      "text": "Every single night millions of men sit in a parked car for 10 quiet minutes."
+    },
+    {
+      "start": 5.44,
+      "end": 11.4,
+      "text": "They're not listening to music. They're not on calls. So what are they doing?"
+    },
+    {
+      "start": 12.28,
+      "end": 20.14,
+      "text": "Between the boss screaming at 11am, rent notices at 3pm and family expectations at 8pm,"
+    },
+    {
+      "start": 20.44,
+      "end": 25.6,
+      "text": "a man becomes an emotional filter. He can't tell his parents, they'll panic."
+    },
+    {
+      "start": 26.42,
+      "end": 31.5,
+      "text": "He can't tell his partner, she's already stressed. His only reply."
+    },
+    {
+      "start": 32.48,
+      "end": 39.3,
+      "text": "Subsorted hair, bro. Globally, men are 3.5 times less likely to ask for help,"
+    },
+    {
+      "start": 39.64,
+      "end": 45.62,
+      "text": "carrying silent pressure until it breaks them. So why does he park in the driveway and just"
+    },
+    {
+      "start": 45.62,
+      "end": 51.9,
+      "text": "freeze? You see, that quiet car is the only place on earth where he doesn't have to be"
+    },
+    {
+      "start": 51.9,
+      "end": 57.38,
+      "text": "a protector, a provider or strong. For 10 minutes, he's just human."
+    },
+    {
+      "start": 58.22,
+      "end": 64.68,
+      "text": "This mains day, don't ask him to fix something. Just ask him, bhai, to thik hai na."
+    }
+  ]
+}

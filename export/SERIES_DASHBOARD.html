@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>दानवीर कर्ण: संपूर्ण 10-भाग महा-सीरीज़ • Doodle Story Tales</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #040711;
+            color: #F0F4F8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 30px 20px;
+        }
+        .header {
+            max-width: 1200px;
+            margin: 0 auto 30px auto;
+            text-align: center;
+            background: radial-gradient(circle at 50% 20%, rgba(255, 215, 0, 0.15) 0%, rgba(10, 16, 38, 0.95) 100%);
+            border: 2px solid #FFD700;
+            border-radius: 24px;
+            padding: 35px 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.25);
+        }
+        .brand-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(18, 5, 36, 0.9);
+            border: 2px solid #FFD700;
+            border-radius: 40px;
+            padding: 8px 24px 8px 10px;
+            margin-bottom: 16px;
+        }
+        .brand-logo {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 2px solid #FFD700;
+        }
+        .brand-title {
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 900;
+            letter-spacing: 0.5px;
+            text-align: left;
+        }
+        .brand-sub {
+            color: #FFD700;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            text-align: left;
+        }
+        h1 {
+            font-size: 38px;
+            font-weight: 900;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #00F5D4;
+            font-weight: 700;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #0B1226;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #FFD700;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.8), 0 0 25px rgba(255,215,0,0.3);
+        }
+        .thumb-wrap {
+            position: relative;
+            aspect-ratio: 16/9;
+            background: #000;
+            overflow: hidden;
+        }
+        .thumb-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .part-pill {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: #E63946;
+            color: #FFFFFF;
+            font-weight: 900;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(230,57,70,0.6);
+        }
+        .card-body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+        .card-title {
+            font-size: 20px;
+            font-weight: 900;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+        }
+        .card-hook {
+            font-size: 14px;
+            color: #FFD700;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .card-desc {
+            font-size: 13px;
+            color: #A0B5E8;
+            line-height: 1.5;
+            margin-bottom: 18px;
+        }
+        .card-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            padding: 10px 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 13px;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-play {
+            grid-column: span 2;
+            background: #FFD700;
+            color: #05070E;
+            font-weight: 900;
+        }
+        .btn-thumb {
+            background: rgba(255, 255, 255, 0.08);
+            color: #FFFFFF;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .btn-meta {
+            background: rgba(0, 245, 212, 0.15);
+            color: #00F5D4;
+            border: 1px solid rgba(0, 245, 212, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="brand-badge">
+            <img class="brand-logo" src="../kahani-stories/public/brand/logo_3d_render.jpg" alt="Logo">
+            <div>
+                <div class="brand-title">DOODLE STORY TALES</div>
+                <div class="brand-sub">@DoodleStoryTalesOfficial • KAHANI STORIES</div>
+            </div>
+        </div>
+        <h1>दानवीर कर्ण: सूर्यपुत्र से कुरुक्षेत्र तक</h1>
+        <p class="subtitle">Complete 10-Part Master Series • 1080x1920 60fps Ultra HD Shorts • Synced Word-by-Word Captions • Master Thumbnails</p>
+        <div style="margin-top: 18px;">
+            <a href="https://www.youtube.com/playlist?list=PLEi1XFk1eApw" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; background: #FF0000; color: #FFF; font-weight: 900; font-size: 14px; text-decoration: none; padding: 10px 22px; border-radius: 20px; box-shadow: 0 4px 20px rgba(255,0,0,0.5);">
+                ▶ Watch Full Playlist on YouTube
+            </a>
+        </div>
+    </div>
+
+    <div class="grid">
+
+        <!-- PART 1 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_1/thumbnail_16x9.png" alt="Part 1">
+                <div class="part-pill">PART 01 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">जन्म और परित्याग</div>
+                    <div class="card-hook">गंगा में क्यों बहाया नवजात? 😱</div>
+                    <div class="card-desc">कुंती को सूर्यदेव से सोने के कवच-कुंडल के साथ दिव्य बालक मिला, पर समाज के डर से उफनती गंगा में बहा दिया गया।</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_1/preview_player.html" class="btn btn-play">▶ Watch Short (Part 1)</a>
+                    <a href="Karna_Part_1/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_1/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 2 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_2/thumbnail_16x9.png" alt="Part 2">
+                <div class="part-pill">PART 02 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">परशुराम का क्रोध</div>
+                    <div class="card-hook">कीड़े का दंश और भयानक श्राप! ⚡</div>
+                    <div class="card-desc">गुरु की नींद न टूटे इसलिए कर्ण जांघ कटने का दर्द सहते रहे। जागे परशुराम ने समझा क्षत्रिय छल और दिया ब्रह्मास्त्र भूलने का श्राप!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_2/preview_player.html" class="btn btn-play">▶ Watch Short (Part 2)</a>
+                    <a href="Karna_Part_2/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_2/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 3 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_3/thumbnail_16x9.png" alt="Part 3">
+                <div class="part-pill">PART 03 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">धरती में धंसता पहिया</div>
+                    <div class="card-hook">अनजाने बाण से मिला मृत्यु-श्राप! ⚡</div>
+                    <div class="card-desc">अभ्यास में अनजाने तीर से बछड़े की मृत्यु हो गई। ब्राह्मण के क्रोध ने कुरुक्षेत्र में रथ का पहिया जाम करने का श्राप दे दिया!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_3/preview_player.html" class="btn btn-play">▶ Watch Short (Part 3)</a>
+                    <a href="Karna_Part_3/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_3/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 4 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_4/thumbnail_16x9.png" alt="Part 4">
+                <div class="part-pill">PART 04 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">रंगभूमि और दोस्ती का कर्ज</div>
+                    <div class="card-hook">सूतपुत्र से अंगराज कर्ण तक! 👑</div>
+                    <div class="card-desc">रंगभूमि में कुल पूछकर हुआ घोर अपमान। दुर्योधन ने आगे बढ़कर अपना मुकुट पहनाया और अंगराज बनाकर अमर मित्रता की नींव रखी!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_4/preview_player.html" class="btn btn-play">▶ Watch Short (Part 4)</a>
+                    <a href="Karna_Part_4/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_4/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 5 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_5/thumbnail_16x9.png" alt="Part 5">
+                <div class="part-pill">PART 05 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">द्रौपदी का स्वयंवर</div>
+                    <div class="card-hook">घूमती मछली और स्वाभिमान का अंत! 💔</div>
+                    <div class="card-desc">धनुष पर प्रत्यंचा चढ़ाते ही द्रौपदी ने 'सूतपुत्र' कहकर भरी सभा में रोक दिया। स्वाभिमान पर लगी यह चोट कुरुक्षेत्र का कारण बनी!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_5/preview_player.html" class="btn btn-play">▶ Watch Short (Part 5)</a>
+                    <a href="Karna_Part_5/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_5/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 6 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_6/thumbnail_16x9.png" alt="Part 6">
+                <div class="part-pill">PART 06 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">कवच-कुंडल का महादान</div>
+                    <div class="card-hook">सीने से मांस काटकर दिया दान! 🛡️</div>
+                    <div class="card-desc">इंद्र ब्राह्मण बनकर भिक्षा मांगने आए। सूर्यदेव की चेतावनी के बावजूद कर्ण ने खंजर निकाला और लहूलुहान सीने से कवच काटकर दान कर दिया!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_6/preview_player.html" class="btn btn-play">▶ Watch Short (Part 6)</a>
+                    <a href="Karna_Part_6/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_6/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 7 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_7/thumbnail_16x9.png" alt="Part 7">
+                <div class="part-pill">PART 07 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">कुंती का सच और वचन</div>
+                    <div class="card-hook">रात के अंधेरे में सगे भाई का सच! 💔</div>
+                    <div class="card-desc">माता कुंती ने रोते हुए सच बताया कि पांडव तुम्हारे सगे भाई हैं। कर्ण ने दुर्योधन का साथ नहीं छोड़ा, पर कुंती को पांच पांडवों का अमर वचन दिया!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_7/preview_player.html" class="btn btn-play">▶ Watch Short (Part 7)</a>
+                    <a href="Karna_Part_7/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_7/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 8 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_8/thumbnail_16x9.png" alt="Part 8">
+                <div class="part-pill">PART 08 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">17वां दिन और श्रापों का जाल</div>
+                    <div class="card-hook">मंत्र भूले, पहिया धंसा महारथी फंसा! ⚔️</div>
+                    <div class="card-desc">कुरुक्षेत्र के 17वें दिन दोनों श्राप एक साथ सक्रिय हुए: दलदल में रथ का पहिया धंस गया और ऐन वक्त पर परशुराम का ब्रह्मास्त्र मंत्र भूल गए!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_8/preview_player.html" class="btn btn-play">▶ Watch Short (Part 8)</a>
+                    <a href="Karna_Part_8/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_8/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 9 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_9/thumbnail_16x9.png" alt="Part 9">
+                <div class="part-pill">PART 09 / 10</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">निहत्थे पर बाण</div>
+                    <div class="card-hook">कृष्ण का इशारा और निहत्थे का अंत! ⚡</div>
+                    <div class="card-desc">पहिया उठाते निहत्थे कर्ण पर भगवान श्रीकृष्ण ने धर्म-अधर्म के सभी नियमों की याद दिलाते हुए अर्जुन को इशारा किया और अंजलिका बाण चल पड़ा!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_9/preview_player.html" class="btn btn-play">▶ Watch Short (Part 9)</a>
+                    <a href="Karna_Part_9/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_9/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 10 -->
+        <div class="card">
+            <div class="thumb-wrap">
+                <img src="Karna_Part_10/thumbnail_16x9.png" alt="Part 10">
+                <div class="part-pill">PART 10 / 10 (FINALE)</div>
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">युधिष्ठिर का महाश्राप व अमरता</div>
+                    <div class="card-hook">जीतकर भी फूट-फूटकर रोए पांडव! 🏆</div>
+                    <div class="card-desc">सच सामने आते ही युधिष्ठिर ने पूरी स्त्री जाति को राज़ न छुपाने का श्राप दिया। कर्ण मृत्यु पाकर भी इतिहास का सबसे महान दानवीर बन अमर हो गया!</div>
+                </div>
+                <div class="card-actions">
+                    <a href="Karna_Part_10/preview_player.html" class="btn btn-play">▶ Watch Short (Part 10)</a>
+                    <a href="Karna_Part_10/thumbnail_9x16.png" target="_blank" class="btn btn-thumb">🖼️ 9:16 Thumb</a>
+                    <a href="Karna_Part_10/YOUTUBE_METADATA.md" target="_blank" class="btn btn-meta">📋 YouTube Deck</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
