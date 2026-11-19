@@ -1,0 +1,912 @@
+{
+  "audio": "audio/onoda_voiceover.mp3",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 42.168,
+  "model": "small",
+  "fps": 30,
+  "text": "World War II ended in 1945, but one Japanese soldier kept fighting for another 29 years. His name was Hiro Onoda. In 1944, he was sent to a Philippine island with one order, never surrender. Then Japan lost the war. Leaflets were dropped, even messages from his family arrived, but he thought they were enemy tricks, and one by one his fellow soldiers died until he was completely alone. Then, in 1974, a young adventurer actually found him, but Onoda refused to surrender unless his commander told him to. So Japan flew his old commander to the island, and after 29 years, one order finally ended his war.",
+  "words": [
+    {
+      "i": 0,
+      "word": "World",
+      "start": 0.0,
+      "end": 0.4,
+      "startFrame": 0,
+      "endFrame": 12
+    },
+    {
+      "i": 1,
+      "word": "War",
+      "start": 0.4,
+      "end": 0.64,
+      "startFrame": 12,
+      "endFrame": 19
+    },
+    {
+      "i": 2,
+      "word": "II",
+      "start": 0.64,
+      "end": 0.88,
+      "startFrame": 19,
+      "endFrame": 26
+    },
+    {
+      "i": 3,
+      "word": "ended",
+      "start": 0.88,
+      "end": 1.22,
+      "startFrame": 26,
+      "endFrame": 37
+    },
+    {
+      "i": 4,
+      "word": "in",
+      "start": 1.22,
+      "end": 1.4,
+      "startFrame": 37,
+      "endFrame": 42
+    },
+    {
+      "i": 5,
+      "word": "1945,",
+      "start": 1.4,
+      "end": 2.04,
+      "startFrame": 42,
+      "endFrame": 61
+    },
+    {
+      "i": 6,
+      "word": "but",
+      "start": 2.78,
+      "end": 2.9,
+      "startFrame": 83,
+      "endFrame": 87
+    },
+    {
+      "i": 7,
+      "word": "one",
+      "start": 2.9,
+      "end": 3.14,
+      "startFrame": 87,
+      "endFrame": 94
+    },
+    {
+      "i": 8,
+      "word": "Japanese",
+      "start": 3.14,
+      "end": 3.56,
+      "startFrame": 94,
+      "endFrame": 107
+    },
+    {
+      "i": 9,
+      "word": "soldier",
+      "start": 3.56,
+      "end": 3.96,
+      "startFrame": 107,
+      "endFrame": 119
+    },
+    {
+      "i": 10,
+      "word": "kept",
+      "start": 3.96,
+      "end": 4.28,
+      "startFrame": 119,
+      "endFrame": 128
+    },
+    {
+      "i": 11,
+      "word": "fighting",
+      "start": 4.28,
+      "end": 4.62,
+      "startFrame": 128,
+      "endFrame": 139
+    },
+    {
+      "i": 12,
+      "word": "for",
+      "start": 4.62,
+      "end": 4.86,
+      "startFrame": 139,
+      "endFrame": 146
+    },
+    {
+      "i": 13,
+      "word": "another",
+      "start": 4.86,
+      "end": 5.14,
+      "startFrame": 146,
+      "endFrame": 154
+    },
+    {
+      "i": 14,
+      "word": "29",
+      "start": 5.14,
+      "end": 5.6,
+      "startFrame": 154,
+      "endFrame": 168
+    },
+    {
+      "i": 15,
+      "word": "years.",
+      "start": 5.6,
+      "end": 6.1,
+      "startFrame": 168,
+      "endFrame": 183
+    },
+    {
+      "i": 16,
+      "word": "His",
+      "start": 7.06,
+      "end": 7.24,
+      "startFrame": 212,
+      "endFrame": 217
+    },
+    {
+      "i": 17,
+      "word": "name",
+      "start": 7.24,
+      "end": 7.5,
+      "startFrame": 217,
+      "endFrame": 225
+    },
+    {
+      "i": 18,
+      "word": "was",
+      "start": 7.5,
+      "end": 7.68,
+      "startFrame": 225,
+      "endFrame": 230
+    },
+    {
+      "i": 19,
+      "word": "Hiro",
+      "start": 7.68,
+      "end": 7.92,
+      "startFrame": 230,
+      "endFrame": 238
+    },
+    {
+      "i": 20,
+      "word": "Onoda.",
+      "start": 7.92,
+      "end": 8.38,
+      "startFrame": 238,
+      "endFrame": 251
+    },
+    {
+      "i": 21,
+      "word": "In",
+      "start": 9.14,
+      "end": 9.58,
+      "startFrame": 274,
+      "endFrame": 287
+    },
+    {
+      "i": 22,
+      "word": "1944,",
+      "start": 9.58,
+      "end": 10.22,
+      "startFrame": 287,
+      "endFrame": 307
+    },
+    {
+      "i": 23,
+      "word": "he",
+      "start": 10.92,
+      "end": 11.0,
+      "startFrame": 328,
+      "endFrame": 330
+    },
+    {
+      "i": 24,
+      "word": "was",
+      "start": 11.0,
+      "end": 11.14,
+      "startFrame": 330,
+      "endFrame": 334
+    },
+    {
+      "i": 25,
+      "word": "sent",
+      "start": 11.14,
+      "end": 11.34,
+      "startFrame": 334,
+      "endFrame": 340
+    },
+    {
+      "i": 26,
+      "word": "to",
+      "start": 11.34,
+      "end": 11.52,
+      "startFrame": 340,
+      "endFrame": 346
+    },
+    {
+      "i": 27,
+      "word": "a",
+      "start": 11.52,
+      "end": 11.64,
+      "startFrame": 346,
+      "endFrame": 349
+    },
+    {
+      "i": 28,
+      "word": "Philippine",
+      "start": 11.64,
+      "end": 12.1,
+      "startFrame": 349,
+      "endFrame": 363
+    },
+    {
+      "i": 29,
+      "word": "island",
+      "start": 12.1,
+      "end": 12.4,
+      "startFrame": 363,
+      "endFrame": 372
+    },
+    {
+      "i": 30,
+      "word": "with",
+      "start": 12.4,
+      "end": 12.62,
+      "startFrame": 372,
+      "endFrame": 379
+    },
+    {
+      "i": 31,
+      "word": "one",
+      "start": 12.62,
+      "end": 12.84,
+      "startFrame": 379,
+      "endFrame": 385
+    },
+    {
+      "i": 32,
+      "word": "order,",
+      "start": 12.84,
+      "end": 13.14,
+      "startFrame": 385,
+      "endFrame": 394
+    },
+    {
+      "i": 33,
+      "word": "never",
+      "start": 13.52,
+      "end": 13.72,
+      "startFrame": 406,
+      "endFrame": 412
+    },
+    {
+      "i": 34,
+      "word": "surrender.",
+      "start": 13.72,
+      "end": 14.12,
+      "startFrame": 412,
+      "endFrame": 424
+    },
+    {
+      "i": 35,
+      "word": "Then",
+      "start": 15.18,
+      "end": 15.38,
+      "startFrame": 455,
+      "endFrame": 461
+    },
+    {
+      "i": 36,
+      "word": "Japan",
+      "start": 15.38,
+      "end": 15.7,
+      "startFrame": 461,
+      "endFrame": 471
+    },
+    {
+      "i": 37,
+      "word": "lost",
+      "start": 15.7,
+      "end": 16.14,
+      "startFrame": 471,
+      "endFrame": 484
+    },
+    {
+      "i": 38,
+      "word": "the",
+      "start": 16.14,
+      "end": 16.32,
+      "startFrame": 484,
+      "endFrame": 490
+    },
+    {
+      "i": 39,
+      "word": "war.",
+      "start": 16.32,
+      "end": 16.56,
+      "startFrame": 490,
+      "endFrame": 497
+    },
+    {
+      "i": 40,
+      "word": "Leaflets",
+      "start": 17.5,
+      "end": 18.0,
+      "startFrame": 525,
+      "endFrame": 540
+    },
+    {
+      "i": 41,
+      "word": "were",
+      "start": 18.0,
+      "end": 18.16,
+      "startFrame": 540,
+      "endFrame": 545
+    },
+    {
+      "i": 42,
+      "word": "dropped,",
+      "start": 18.16,
+      "end": 18.48,
+      "startFrame": 545,
+      "endFrame": 554
+    },
+    {
+      "i": 43,
+      "word": "even",
+      "start": 18.78,
+      "end": 18.98,
+      "startFrame": 563,
+      "endFrame": 569
+    },
+    {
+      "i": 44,
+      "word": "messages",
+      "start": 18.98,
+      "end": 19.34,
+      "startFrame": 569,
+      "endFrame": 580
+    },
+    {
+      "i": 45,
+      "word": "from",
+      "start": 19.34,
+      "end": 19.62,
+      "startFrame": 580,
+      "endFrame": 589
+    },
+    {
+      "i": 46,
+      "word": "his",
+      "start": 19.62,
+      "end": 19.78,
+      "startFrame": 589,
+      "endFrame": 593
+    },
+    {
+      "i": 47,
+      "word": "family",
+      "start": 19.78,
+      "end": 20.04,
+      "startFrame": 593,
+      "endFrame": 601
+    },
+    {
+      "i": 48,
+      "word": "arrived,",
+      "start": 20.04,
+      "end": 20.58,
+      "startFrame": 601,
+      "endFrame": 617
+    },
+    {
+      "i": 49,
+      "word": "but",
+      "start": 20.88,
+      "end": 21.02,
+      "startFrame": 626,
+      "endFrame": 631
+    },
+    {
+      "i": 50,
+      "word": "he",
+      "start": 21.02,
+      "end": 21.12,
+      "startFrame": 631,
+      "endFrame": 634
+    },
+    {
+      "i": 51,
+      "word": "thought",
+      "start": 21.12,
+      "end": 21.32,
+      "startFrame": 634,
+      "endFrame": 640
+    },
+    {
+      "i": 52,
+      "word": "they",
+      "start": 21.32,
+      "end": 21.5,
+      "startFrame": 640,
+      "endFrame": 645
+    },
+    {
+      "i": 53,
+      "word": "were",
+      "start": 21.5,
+      "end": 21.62,
+      "startFrame": 645,
+      "endFrame": 649
+    },
+    {
+      "i": 54,
+      "word": "enemy",
+      "start": 21.62,
+      "end": 21.86,
+      "startFrame": 649,
+      "endFrame": 656
+    },
+    {
+      "i": 55,
+      "word": "tricks,",
+      "start": 21.86,
+      "end": 22.2,
+      "startFrame": 656,
+      "endFrame": 666
+    },
+    {
+      "i": 56,
+      "word": "and",
+      "start": 22.56,
+      "end": 22.74,
+      "startFrame": 677,
+      "endFrame": 682
+    },
+    {
+      "i": 57,
+      "word": "one",
+      "start": 22.74,
+      "end": 22.94,
+      "startFrame": 682,
+      "endFrame": 688
+    },
+    {
+      "i": 58,
+      "word": "by",
+      "start": 22.94,
+      "end": 23.1,
+      "startFrame": 688,
+      "endFrame": 693
+    },
+    {
+      "i": 59,
+      "word": "one",
+      "start": 23.1,
+      "end": 23.34,
+      "startFrame": 693,
+      "endFrame": 700
+    },
+    {
+      "i": 60,
+      "word": "his",
+      "start": 23.34,
+      "end": 23.48,
+      "startFrame": 700,
+      "endFrame": 704
+    },
+    {
+      "i": 61,
+      "word": "fellow",
+      "start": 23.48,
+      "end": 23.74,
+      "startFrame": 704,
+      "endFrame": 712
+    },
+    {
+      "i": 62,
+      "word": "soldiers",
+      "start": 23.74,
+      "end": 24.14,
+      "startFrame": 712,
+      "endFrame": 724
+    },
+    {
+      "i": 63,
+      "word": "died",
+      "start": 24.14,
+      "end": 24.52,
+      "startFrame": 724,
+      "endFrame": 736
+    },
+    {
+      "i": 64,
+      "word": "until",
+      "start": 24.52,
+      "end": 24.82,
+      "startFrame": 736,
+      "endFrame": 745
+    },
+    {
+      "i": 65,
+      "word": "he",
+      "start": 24.82,
+      "end": 25.0,
+      "startFrame": 745,
+      "endFrame": 750
+    },
+    {
+      "i": 66,
+      "word": "was",
+      "start": 25.0,
+      "end": 25.14,
+      "startFrame": 750,
+      "endFrame": 754
+    },
+    {
+      "i": 67,
+      "word": "completely",
+      "start": 25.14,
+      "end": 25.58,
+      "startFrame": 754,
+      "endFrame": 767
+    },
+    {
+      "i": 68,
+      "word": "alone.",
+      "start": 25.58,
+      "end": 25.9,
+      "startFrame": 767,
+      "endFrame": 777
+    },
+    {
+      "i": 69,
+      "word": "Then,",
+      "start": 26.92,
+      "end": 27.24,
+      "startFrame": 808,
+      "endFrame": 817
+    },
+    {
+      "i": 70,
+      "word": "in",
+      "start": 27.6,
+      "end": 27.68,
+      "startFrame": 828,
+      "endFrame": 830
+    },
+    {
+      "i": 71,
+      "word": "1974,",
+      "start": 27.68,
+      "end": 28.44,
+      "startFrame": 830,
+      "endFrame": 853
+    },
+    {
+      "i": 72,
+      "word": "a",
+      "start": 29.1,
+      "end": 29.22,
+      "startFrame": 873,
+      "endFrame": 877
+    },
+    {
+      "i": 73,
+      "word": "young",
+      "start": 29.22,
+      "end": 29.42,
+      "startFrame": 877,
+      "endFrame": 883
+    },
+    {
+      "i": 74,
+      "word": "adventurer",
+      "start": 29.42,
+      "end": 29.92,
+      "startFrame": 883,
+      "endFrame": 898
+    },
+    {
+      "i": 75,
+      "word": "actually",
+      "start": 29.92,
+      "end": 30.3,
+      "startFrame": 898,
+      "endFrame": 909
+    },
+    {
+      "i": 76,
+      "word": "found",
+      "start": 30.3,
+      "end": 30.66,
+      "startFrame": 909,
+      "endFrame": 920
+    },
+    {
+      "i": 77,
+      "word": "him,",
+      "start": 30.66,
+      "end": 30.86,
+      "startFrame": 920,
+      "endFrame": 926
+    },
+    {
+      "i": 78,
+      "word": "but",
+      "start": 31.2,
+      "end": 31.32,
+      "startFrame": 936,
+      "endFrame": 940
+    },
+    {
+      "i": 79,
+      "word": "Onoda",
+      "start": 31.32,
+      "end": 31.7,
+      "startFrame": 940,
+      "endFrame": 951
+    },
+    {
+      "i": 80,
+      "word": "refused",
+      "start": 31.7,
+      "end": 32.08,
+      "startFrame": 951,
+      "endFrame": 962
+    },
+    {
+      "i": 81,
+      "word": "to",
+      "start": 32.08,
+      "end": 32.42,
+      "startFrame": 962,
+      "endFrame": 973
+    },
+    {
+      "i": 82,
+      "word": "surrender",
+      "start": 32.42,
+      "end": 32.74,
+      "startFrame": 973,
+      "endFrame": 982
+    },
+    {
+      "i": 83,
+      "word": "unless",
+      "start": 32.74,
+      "end": 33.08,
+      "startFrame": 982,
+      "endFrame": 992
+    },
+    {
+      "i": 84,
+      "word": "his",
+      "start": 33.08,
+      "end": 33.32,
+      "startFrame": 992,
+      "endFrame": 1000
+    },
+    {
+      "i": 85,
+      "word": "commander",
+      "start": 33.32,
+      "end": 33.66,
+      "startFrame": 1000,
+      "endFrame": 1010
+    },
+    {
+      "i": 86,
+      "word": "told",
+      "start": 33.66,
+      "end": 34.0,
+      "startFrame": 1010,
+      "endFrame": 1020
+    },
+    {
+      "i": 87,
+      "word": "him",
+      "start": 34.0,
+      "end": 34.18,
+      "startFrame": 1020,
+      "endFrame": 1025
+    },
+    {
+      "i": 88,
+      "word": "to.",
+      "start": 34.18,
+      "end": 34.32,
+      "startFrame": 1025,
+      "endFrame": 1030
+    },
+    {
+      "i": 89,
+      "word": "So",
+      "start": 35.2,
+      "end": 35.46,
+      "startFrame": 1056,
+      "endFrame": 1064
+    },
+    {
+      "i": 90,
+      "word": "Japan",
+      "start": 35.46,
+      "end": 35.8,
+      "startFrame": 1064,
+      "endFrame": 1074
+    },
+    {
+      "i": 91,
+      "word": "flew",
+      "start": 35.8,
+      "end": 36.12,
+      "startFrame": 1074,
+      "endFrame": 1084
+    },
+    {
+      "i": 92,
+      "word": "his",
+      "start": 36.12,
+      "end": 36.34,
+      "startFrame": 1084,
+      "endFrame": 1090
+    },
+    {
+      "i": 93,
+      "word": "old",
+      "start": 36.34,
+      "end": 36.52,
+      "startFrame": 1090,
+      "endFrame": 1096
+    },
+    {
+      "i": 94,
+      "word": "commander",
+      "start": 36.52,
+      "end": 36.92,
+      "startFrame": 1096,
+      "endFrame": 1108
+    },
+    {
+      "i": 95,
+      "word": "to",
+      "start": 36.92,
+      "end": 37.14,
+      "startFrame": 1108,
+      "endFrame": 1114
+    },
+    {
+      "i": 96,
+      "word": "the",
+      "start": 37.14,
+      "end": 37.28,
+      "startFrame": 1114,
+      "endFrame": 1118
+    },
+    {
+      "i": 97,
+      "word": "island,",
+      "start": 37.28,
+      "end": 37.6,
+      "startFrame": 1118,
+      "endFrame": 1128
+    },
+    {
+      "i": 98,
+      "word": "and",
+      "start": 37.92,
+      "end": 38.08,
+      "startFrame": 1138,
+      "endFrame": 1142
+    },
+    {
+      "i": 99,
+      "word": "after",
+      "start": 38.08,
+      "end": 38.34,
+      "startFrame": 1142,
+      "endFrame": 1150
+    },
+    {
+      "i": 100,
+      "word": "29",
+      "start": 38.34,
+      "end": 38.76,
+      "startFrame": 1150,
+      "endFrame": 1163
+    },
+    {
+      "i": 101,
+      "word": "years,",
+      "start": 38.76,
+      "end": 39.18,
+      "startFrame": 1163,
+      "endFrame": 1175
+    },
+    {
+      "i": 102,
+      "word": "one",
+      "start": 39.66,
+      "end": 39.84,
+      "startFrame": 1190,
+      "endFrame": 1195
+    },
+    {
+      "i": 103,
+      "word": "order",
+      "start": 39.84,
+      "end": 40.04,
+      "startFrame": 1195,
+      "endFrame": 1201
+    },
+    {
+      "i": 104,
+      "word": "finally",
+      "start": 40.04,
+      "end": 40.4,
+      "startFrame": 1201,
+      "endFrame": 1212
+    },
+    {
+      "i": 105,
+      "word": "ended",
+      "start": 40.4,
+      "end": 40.74,
+      "startFrame": 1212,
+      "endFrame": 1222
+    },
+    {
+      "i": 106,
+      "word": "his",
+      "start": 40.74,
+      "end": 40.94,
+      "startFrame": 1222,
+      "endFrame": 1228
+    },
+    {
+      "i": 107,
+      "word": "war.",
+      "start": 40.94,
+      "end": 41.18,
+      "startFrame": 1228,
+      "endFrame": 1235
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.1,
+      "text": "World War II ended in 1945, but one Japanese soldier kept fighting for another 29 years."
+    },
+    {
+      "start": 7.06,
+      "end": 14.12,
+      "text": "His name was Hiro Onoda. In 1944, he was sent to a Philippine island with one order, never surrender."
+    },
+    {
+      "start": 15.18,
+      "end": 20.58,
+      "text": "Then Japan lost the war. Leaflets were dropped, even messages from his family arrived,"
+    },
+    {
+      "start": 20.88,
+      "end": 25.14,
+      "text": "but he thought they were enemy tricks, and one by one his fellow soldiers died until he was"
+    },
+    {
+      "start": 25.14,
+      "end": 32.74,
+      "text": "completely alone. Then, in 1974, a young adventurer actually found him, but Onoda refused to surrender"
+    },
+    {
+      "start": 32.74,
+      "end": 39.18,
+      "text": "unless his commander told him to. So Japan flew his old commander to the island, and after 29 years,"
+    },
+    {
+      "start": 39.66,
+      "end": 41.18,
+      "text": "one order finally ended his war."
+    }
+  ]
+}

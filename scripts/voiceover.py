@@ -125,7 +125,7 @@ def main():
     parser.add_argument("--text", "-t", type=str, help="Text to convert to speech")
     parser.add_argument("--file", "-f", type=str, help="Text file containing script")
     parser.add_argument("--voice", "-v", default=None, help="Voice name or alias")
-    parser.add_argument("--rate", "-r", default="+5%", help="Speaking speed rate (Edge TTS only, default +5% for reels)")
+    parser.add_argument("--rate", "-r", default="+5%", help="Speaking speed rate (Edge TTS only, default +5%% for reels)")
     parser.add_argument("--pitch", "-p", default="+0Hz", help="Voice pitch (Edge TTS only)")
     parser.add_argument("--output", "-o", default="audio/voiceover.mp3", help="Output audio file path")
     parser.add_argument("--subtitles", "-s", default=None, help="Optional output SRT subtitle path (Edge TTS only)")

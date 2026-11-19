@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiroo Onoda - Viral Reel Studio Preview & Asset Deck</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold: #FFD700;
+      --red: #FF3B30;
+      --cyan: #00F0FF;
+      --bg: #0A0D18;
+      --card-bg: #12172A;
+      --card-border: #1E293B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 20px;
+      background: var(--bg);
+      color: #FFF;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .header {
+      text-align: center;
+      max-width: 900px;
+      margin-bottom: 28px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 6px 18px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 15px rgba(255, 59, 48, 0.4);
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      font-weight: 900;
+      margin: 0 0 10px 0;
+      color: var(--gold);
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: #94A3B8;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .container {
+      display: flex;
+      gap: 36px;
+      align-items: flex-start;
+      max-width: 1280px;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    /* Phone Mockup */
+    .phone-mockup {
+      width: 380px;
+      height: 675px;
+      background: #000;
+      border-radius: 44px;
+      border: 8px solid #334155;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.8), 0 0 40px rgba(255,215,0,0.15);
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .phone-mockup video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .notch {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 140px;
+      height: 22px;
+      background: #334155;
+      border-radius: 12px;
+      z-index: 50;
+    }
+
+    /* Details Panel */
+    .details-panel {
+      flex: 1;
+      min-width: 340px;
+      max-width: 760px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 24px;
+    }
+    .card h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      color: #FFF;
+      margin: 0 0 16px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .meta-box {
+      background: rgba(255,255,255,0.03);
+      padding: 12px 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .meta-label {
+      color: #64748B;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .meta-val {
+      color: var(--gold);
+      font-weight: 800;
+      font-size: 17px;
+      margin-top: 4px;
+    }
+    .thumbnail-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .thumb-card {
+      flex: 1;
+      min-width: 220px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      text-align: center;
+    }
+    .thumb-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .thumb-caption {
+      padding: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #CBD5E1;
+    }
+    .pill-link {
+      display: inline-block;
+      background: #00F0FF;
+      color: #05070E;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin-top: 6px;
+    }
+    .scene-row {
+      display: flex;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      font-size: 13px;
+    }
+    .scene-row:last-child { border-bottom: none; }
+    .scene-time {
+      color: var(--gold);
+      font-weight: 800;
+      min-width: 80px;
+    }
+    .scene-desc {
+      color: #CBD5E1;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="badge">Trending Short • Historical Narrative</div>
+    <h1>Hiroo Onoda: The 29-Year Solitary War</h1>
+    <div class="subtitle">Complete Viral Reel package with 3D cinematic character scenes, genuine 1944 & 1974 archival photographs, 2-tone kinetic typography, and synchronized sound effects.</div>
+  </div>
+
+  <div class="container">
+    <!-- Phone Mockup -->
+    <div class="phone-mockup">
+      <div class="notch"></div>
+      <video controls autoplay loop playsinline>
+        <source src="hiroo_onoda_viral_short_master.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Details Panel -->
+    <div class="details-panel">
+      <!-- Specifications -->
+      <div class="card">
+        <h2>📊 Video Technical Specifications</h2>
+        <div class="meta-grid">
+          <div class="meta-box">
+            <div class="meta-label">Duration</div>
+            <div class="meta-val">42.5 Seconds</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Resolution</div>
+            <div class="meta-val">1080 × 1920 (9:16)</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Frame Rate</div>
+            <div class="meta-val">30 FPS (1275 Frames)</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Broadcast Loudness</div>
+            <div class="meta-val">-16.5 LUFS (-1.6 dBTP)</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Voiceover Engine</div>
+            <div class="meta-val">Christopher Neural (+6%)</div>
+          </div>
+          <div class="meta-box">
+            <div class="meta-label">Subtitle Sync</div>
+            <div class="meta-val">Whisper Word-Level</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- High-CTR Thumbnails & Canva Import -->
+      <div class="card">
+        <h2>🖼️ High-CTR Thumbnails & Canva Integration</h2>
+        <p style="color:#94A3B8; font-size:13px; margin-top:0;">Designed according to THUMBNAIL_STYLE_GUIDE.md with two-tone headline lockup, heavy 16px black stroke, and imported into Canva:</p>
+        <div class="thumbnail-row">
+          <div class="thumb-card">
+            <img src="thumbnail_9x16.png" alt="9:16 Vertical Thumbnail">
+            <div class="thumb-caption">
+              <div>9:16 Vertical Cover (1080×1920)</div>
+              <span class="pill-link">Canva Media ID: MAHbS71bBbE</span>
+            </div>
+          </div>
+          <div class="thumb-card">
+            <img src="thumbnail_16x9.png" alt="16:9 Landscape Thumbnail">
+            <div class="thumb-caption">
+              <div>16:9 Landscape Cover (1280×720)</div>
+              <span class="pill-link">Canva Media ID: MAHbSwM0xhE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scene Cuts & Beat Breakdown -->
+      <div class="card">
+        <h2>🎬 7-Beat Scene & Transition Rhythm</h2>
+        <div class="scene-row">
+          <div class="scene-time">0.0s – 6.1s</div>
+          <div class="scene-desc"><b>Hook Claim:</b> 1945 WWII ended, soldier fighting for 29 years. 3D animated Hiroo Onoda in jungle + Odometer 29-year ticker.</div>
+        </div>
+        <div class="scene-row">
+          <div class="scene-time">6.1s – 14.5s</div>
+          <div class="scene-desc"><b>The Mission:</b> 1944 Lubang Island deployment. Authentic 1944 portrait cutout + Tactical radar map + Military directive badge.</div>
+        </div>
+        <div class="scene-row">
+          <div class="scene-time">14.5s – 20.7s</div>
+          <div class="scene-desc"><b>Leaflets & Mistrust:</b> Japan lost war. Actual Allied surrender leaflet 3D floating + Family letters dismissed as enemy tricks.</div>
+        </div>
+        <div class="scene-row">
+          <div class="scene-time">20.7s – 25.2s</div>
+          <div class="scene-desc"><b>Total Solitude:</b> Comrade Pvt. Kozuka killed. Squad tracker 4 → 3 → 2 → 1 ALONE + Midnight campfire survival vigilance.</div>
+        </div>
+        <div class="scene-row">
+          <div class="scene-time">25.2s – 32.8s</div>
+          <div class="scene-desc"><b>The Adventurer:</b> 1974 Norio Suzuki encounter. Genuine 1974 jungle photo + "Only if commander orders me" condition card.</div>
+        </div>
+        <div class="scene-row">
+          <div class="scene-time">32.8s – 39.2s</div>
+          <div class="scene-desc"><b>Climax:</b> Major Taniguchi flown to Lubang. Official discharge papers read + Emotional salute with golden sunset lighting.</div>
+        </div>
+        <div class="scene-row">
+          <div class="scene-time">39.2s – 42.5s</div>
+          <div class="scene-desc"><b>Payoff / Resolution:</b> Handing over samurai sword to President Marcos. Golden victory seal "ONE ORDER ENDED HIS WAR".</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -12,8 +12,8 @@ export const Root: React.FC = () => (
         component={s.component}
         durationInFrames={s.durationInFrames}
         fps={FPS}
-        width={WIDTH}
-        height={HEIGHT}
+        width={s.width ?? WIDTH}
+        height={s.height ?? HEIGHT}
       />
     ))}
   </>

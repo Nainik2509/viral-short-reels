@@ -5,6 +5,7 @@ An automated, AI-powered short-form video creation workspace optimized for **Ins
 > 📖 **Quick Links**:
 > - [WORKFLOW_GUIDE.md](file:///Users/nainik/Documents/Nainik/Nainik2509/Projects/Viral%20Reel%20Studio/WORKFLOW_GUIDE.md) — Complete 4-tool pipeline guide & commands.
 > - [REEL_STYLE_GUIDE.md](file:///Users/nainik/Documents/Nainik/Nainik2509/Projects/Viral%20Reel%20Studio/REEL_STYLE_GUIDE.md) — Reverse-engineered video editing, typography, transitions & pacing rules.
+> - [STYLE_PROFILE.md](STYLE_PROFILE.md) — Measured style from 8 reference Shorts + your brand-layer slots.
 > - [THUMBNAIL_STYLE_GUIDE.md](file:///Users/nainik/Documents/Nainik/Nainik2509/Projects/Viral%20Reel%20Studio/THUMBNAIL_STYLE_GUIDE.md) — High-CTR thumbnail formulas, visual hooks & color theory.
 
 ## 🛠️ The 4 Core Tools
