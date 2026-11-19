@@ -7,6 +7,7 @@ An automated, AI-powered short-form video creation workspace optimized for **Ins
 > - [REEL_STYLE_GUIDE.md](file:///Users/nainik/Documents/Nainik/Nainik2509/Projects/Viral%20Reel%20Studio/REEL_STYLE_GUIDE.md) — Reverse-engineered video editing, typography, transitions & pacing rules.
 > - [STYLE_PROFILE.md](STYLE_PROFILE.md) — Measured style from 8 reference Shorts + your brand-layer slots.
 > - [THUMBNAIL_STYLE_GUIDE.md](file:///Users/nainik/Documents/Nainik/Nainik2509/Projects/Viral%20Reel%20Studio/THUMBNAIL_STYLE_GUIDE.md) — High-CTR thumbnail formulas, visual hooks & color theory.
+> - [POSTING_TIMING_GUIDE.md](POSTING_TIMING_GUIDE.md) — Best times to post Reels & Shorts: India (IST), global (local time) and whole-world UTC overlap.
 
 ## 🛠️ The 4 Core Tools
 
