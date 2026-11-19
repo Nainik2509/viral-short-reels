@@ -12,6 +12,7 @@
 
 | Date | Time (IST) | Slot | Video Title / Series | Video ID | Shorts URL |
 | :--- | :---: | :---: | :--- | :--- | :--- |
+| **19 Nov (Thu)** | **14:15** | **Live** | **The 10-Minute Car Silence Every Man Knows 🤫 (Men's Day)** | `0W8mFXCgtJk` | [Watch](https://youtube.com/shorts/0W8mFXCgtJk) |
 | **19 Nov (Thu)** | 20:00 | Prime | WWII Ended in 1945. He Kept Fighting for 29 Years 🤯 | `CR5EaJi0egE` | [Watch](https://youtube.com/shorts/CR5EaJi0egE) |
 | **20 Nov (Fri)** | 13:00 | Afternoon | Kya door rakhi aag par khichdi pak sakti hai? | `jyUDBuCc3r4` | [Watch](https://youtube.com/shorts/jyUDBuCc3r4) |
 | **20 Nov (Fri)** | **20:00** | **Prime** | **Part 1: गंगा में क्यों बहाया नवजात? 😱 The Secret of Karna** | `RCmpOAOeP9w` | [Watch Part 1](https://youtube.com/shorts/RCmpOAOeP9w) |
