@@ -49,6 +49,25 @@ All original videos, dual-format thumbnails, interactive HTML preview players, a
 
 ---
 
+## 🌐 Multi-Language Localization & Global Discovery (All 10 Parts)
+
+Every episode in the series has been localized with native **Hindi** as the primary audio language and **English (United States)** metadata published:
+
+| Part # | Video ID | Scheduled Date | Hindi Primary Title | English (US) Published Title |
+|:---:|:---:|:---:|:---|:---|
+| **Part 1** | `RCmpOAOeP9w` | 20 Nov 2026 | गंगा में क्यों बहाया नवजात? 😱 The Secret of Karna \| Part 1 | Why Was A Newborn Abandoned in the River? 😱 The Secret of Karna \| Part 1 |
+| **Part 2** | `dUnc5grqRrI` | 21 Nov 2026 | गुरु की जांघ से निकला खून! 🩸 परशुराम का भयानक श्राप \| Part 2 | Blood From the Guru's Thigh! 🩸 Parashurama's Curse \| Part 2 |
+| **Part 3** | `OSz6xDFELRo` | 22 Nov 2026 | सूतपुत्र कहकर भरी सभा में बेइज्जत! 😡 \| Part 3 | Humiliated As a Charioteer's Son! 😡 The Coronation \| Part 3 |
+| **Part 4** | `-Xaqmn8fUw8` | 23 Nov 2026 | जब इंद्र देव ने भिक्षुक बनकर कर्ण को ठगा! ⚡ \| Part 4 | When Indra Begged for Karna's Divine Armor! ⚡ \| Part 4 |
+| **Part 5** | `D9p8SFl0y6Y` | 24 Nov 2026 | द्रौपदी स्वयंवर: क्या सच में कर्ण को रोका गया? 🏹 \| Part 5 | Draupadi's Swayamvar: Was Karna Really Rejected? 🏹 \| Part 5 |
+| **Part 6** | `SINddPUsHMk` | 25 Nov 2026 | जब श्रीकृष्ण ने कर्ण को दिया भारत का साम्राज्य! 👑 \| Part 6 | When Krishna Offered the Entire Empire to Karna! 👑 \| Part 6 |
+| **Part 7** | `RZweiiWaaeM` | 26 Nov 2026 | आधी रात को कुंती कर्ण के पैरों में क्यों गिरी? 😭 \| Part 7 | Why Did Queen Kunti Beg at Karna's Feet at Midnight? 😭 \| Part 7 |
+| **Part 8** | `_-_FLRsfgjo` | 27 Nov 2026 | अर्जुन को लगभग मार ही दिया था कर्ण ने! ⚔️ \| Part 8 | The Day Karna Almost Killed Arjuna! ⚔️ Kurukshetra War \| Part 8 |
+| **Part 9** | `9KUcgUPq8sk` | 28 Nov 2026 | धंसा पहिया और छूटा बाण! 🩸 निहत्थे कर्ण का छल से वध \| Part 9 | The Trapped Chariot Wheel! 🩸 The Tragic Death of Karna \| Part 9 |
+| **Part 10** | `BPOfJ3akyOo` | 29 Nov 2026 | जीतकर भी फूट-फूटकर रोए पांडव! 😭 \| Part 10 | The Pandavas Wept in Agony After Winning! 😭 \| Part 10 |
+
+---
+
 ## 🎯 Playlists on YouTube Channel
 1. **दास्तान-ए-कर्ण: सूर्यपुत्र की गाथा (Mahabharat 10-Part Series)**  
    - **Public Playlist Link:** [https://www.youtube.com/playlist?list=PLEi1XFk1eApw](https://www.youtube.com/playlist?list=PLEi1XFk1eApw)
